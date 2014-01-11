@@ -89,9 +89,9 @@ begin
     declare vIzCvor, vDoCvor, vVezaIme varchar(255);
 
     update cvor set
-    vezaID = null,
-    tezina = null,
-    izracunato = 0;
+        vezaID = null,
+        tezina = null,
+        izracunato = 0;
 
     set vIzCvorID = (select cvorID from cvor where pIzCvor = cvorIme);
     if vIzCvorID is null then
@@ -99,82 +99,78 @@ begin
 
     else
         begin
-        set vCvorID = vIzCvorID;
-        set vDoCvorID = (select cvorID from cvor where cvorIme = pDoCvor);
-        if vDoCvorID is null then
-        select concat('Izvorisni cvor ', pDoCvor, 'nije nadjen.');
-        else 
-        begin
-            update cvor set tezina = 0 where cvorID = vIzCvorID;
-
-            while vCvorID is not null do
+            set vCvorID = vIzCvorID;
+            set vDoCvorID = (select cvorID from cvor where cvorIme = pDoCvor);
+            if vDoCvorID is null then
+                select concat('Izvorisni cvor ', pDoCvor, 'nije nadjen.');
+            else 
                 begin
-                    update
-                    cvor as src
-                    join veza as v on v.IzCvorID = src.cvorID
-                    join cvor dest on dest.CvorID = v.DoCvorID
+                    update cvor set tezina = 0 where cvorID = vIzCvorID;
 
-                    set dest.tezina = 
-                    case
-                        when dest.tezina is null then src.tezina + v.tezina
-                        when src.tezina + v.tezina < dest.tezina then src.tezina + v.tezina
-                        else dest.tezina
-                    end,
+                    while vCvorID is not null do
+                        begin
+                            update cvor as src
+                            join veza as v on v.IzCvorID = src.cvorID
+                            join cvor dest on dest.CvorID = v.DoCvorID
 
-                    dest.vezaID = v.vezaID
-                    where
-                    src.cvorID = vCvorID
-                    and(dest.tezina is null or src.tezina + v.tezina < dest.tezina)
-                    and dest.izracunato = 0;
+                            set dest.tezina = 
+                            case
+                                when dest.tezina is null then src.tezina + v.tezina
+                                when src.tezina + v.tezina < dest.tezina then src.tezina + v.tezina
+                                else dest.tezina
+                            end,
 
-                    update cvor set izracunato = 1 where cvorID = vCvorID;
+                            dest.vezaID = v.vezaID
+                            where
+                            src.cvorID = vCvorID
+                            and(dest.tezina is null or src.tezina + v.tezina < dest.tezina)
+                            and dest.izracunato = 0;
 
-                    set vCvorID = (select cvorID from cvor
-                    where izracunato = 0 and tezina is not null
-                    order by tezina limit 1);
+                            update cvor set izracunato = 1 where cvorID = vCvorID;
+
+                            set vCvorID = (select cvorID from cvor
+                            where izracunato = 0 and tezina is not null
+                            order by tezina limit 1);
+                        end;
+                    end while;
                 end;
-            end while;
+            end if;
         end;
-    end if;
-    end;
     end if; 
     if exists( select 1 from cvor where cvorID = vDoCvorID and tezina is null) then 
-    select concat('Cvor ', vCvorID, ' promasen.');
+        select concat('Cvor ', vCvorID, ' promasen.');
     else
 
-    begin
-    drop temporary table if exists map;
+        begin
+            drop temporary table if exists map;
 
-    create temporary table map(
-    redID int primary key auto_increment,
-    izCvorIme varchar(255),
-    vezaIme varchar(255),
-    doCvorIme varchar(255),
-    tezina int) ENGINE=MEMORY;
+            create temporary table map(
+                redID int primary key auto_increment,
+                izCvorIme varchar(255),
+                vezaIme varchar(255),
+                doCvorIme varchar(255),
+                tezina int) ENGINE=MEMORY;
 
-    while vIzCvorID <> vDoCvorID do
-    begin
-    select
-    src.CvorIme, dest.CvorIme, dest.Tezina, dest.vezaID, v.vezaIme
-    into vIzCvor, vDoCvor, vTezina, vVezaID, vVezaIme
-    from 
-    cvor as dest
-    join veza as v on v.vezaID = dest.vezaID
-    join cvor as src on src.cvorID = v.IzCvorID
-    where dest.cvorID = vDoCvorID;
+            while vIzCvorID <> vDoCvorID do
+                begin
+                    select
+                    src.CvorIme, dest.CvorIme, dest.Tezina, dest.vezaID, v.vezaIme
+                    into vIzCvor, vDoCvor, vTezina, vVezaID, vVezaIme
+                    from 
+                    cvor as dest
+                    join veza as v on v.vezaID = dest.vezaID
+                    join cvor as src on src.cvorID = v.IzCvorID
+                    where dest.cvorID = vDoCvorID;
 
-    
+                    insert into map(izCvorIme, vezaIme, doCvorIme, tezina) values (vIzCvor, vVezaIme, vDoCvor, vTezina);
 
+                    set vDoCvorID = (select izCvorID from veza where vezaID = vVezaID);
+                end;
+            end while;
 
-    insert into map(izCvorIme, vezaIme, doCvorIme, tezina) values (vIzCvor, vVezaIme, vDoCvor, vTezina);
-
-    set vDoCvorID = (select izCvorID from veza where vezaID = vVezaID);
-    end;
-    end while;
-
-    select izCvorIme, vezaIme, DoCvorIme, tezina from map order by redID desc;
-    drop temporary table map;
-    end;
+            select izCvorIme, vezaIme, DoCvorIme, tezina from map order by redID desc;
+            drop temporary table map;
+        end;
     end if;
 end ;;
 DELIMITER ;
@@ -195,31 +191,31 @@ DELIMITER ;;
 CREATE DEFINER=`root`@`localhost` PROCEDURE `dodajVezu`(pIzCvor varchar(255), pVezaIme varchar(255), pDoCvor varchar(255), pTezina int)
 begin
 
-declare vIzCvor, vDoCvor, vVezaID int;
+    declare vIzCvor, vDoCvor, vVezaID int;
 
-set vIzCvor = (select cvorID from cvor where cvorIme = pIzCvor);
-if vIzCvor is null then
-begin
-insert into cvor (cvorIme, izracunato) values (pIzCvor, 0);
-set vIzCvor = last_insert_id();
-end;
-end if;
+    set vIzCvor = (select cvorID from cvor where cvorIme = pIzCvor);
+    if vIzCvor is null then
+        begin
+            insert into cvor (cvorIme, izracunato) values (pIzCvor, 0);
+            set vIzCvor = last_insert_id();
+        end;
+    end if;
 
-set vDoCvor = (select cvorID from cvor where cvorIme = pDoCvor);
-if vDoCvor is null then
-begin
-insert into cvor(cvorIme, izracunato) values (pDoCvor, 0);
-set vDoCvor = last_insert_id();
-end;
-end if;
+    set vDoCvor = (select cvorID from cvor where cvorIme = pDoCvor);
+    if vDoCvor is null then
+        begin
+            insert into cvor(cvorIme, izracunato) values (pDoCvor, 0);
+            set vDoCvor = last_insert_id();
+        end;
+    end if;
 
-set vVezaID = (select vezaID from veza where izCvorID = vIzCvor and doCvorID = vDoCvor);
-if vVezaID is null then
-insert into veza(vezaIme, izCvorID, doCvorID, tezina) values(pVezaIme, vIzCvor, vDoCvor, pTezina);
-else
-update veza set tezina = pTezina
-where izCvorID = vIzCvor and doCvorID = vDoCvor;
-end if;
+    set vVezaID = (select vezaID from veza where izCvorID = vIzCvor and doCvorID = vDoCvor);
+    if vVezaID is null then
+        insert into veza(vezaIme, izCvorID, doCvorID, tezina) values(pVezaIme, vIzCvor, vDoCvor, pTezina);
+    else
+        update veza set tezina = pTezina
+        where izCvorID = vIzCvor and doCvorID = vDoCvor;
+    end if;
 
 end ;;
 DELIMITER ;
@@ -237,4 +233,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-11 14:18:13
+-- Dump completed on 2014-01-11 14:47:13
