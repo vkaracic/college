@@ -1,4 +1,5 @@
-# H1 Projekt iz Upravljanja znanjem u razvoju programske podrške
+Projekt iz Upravljanja znanjem u razvoju programske podrške
+------
 
 Zadatak je napraviti programsku podršku za robota koja ga vodi od točke A do točke B (cilja). Robot je model Lego NXT i opremljen se senzorima za dodir, boju i ultrazvukom, te kreće se pomoću aktuatora. Jedan korak je fiksiran na 30 cm a rotacija na 90*x stupnjeva okreta, gdje je x broj okretaja.
 Smješten je u svijetu koji je diskretiziran i podjeljen u polja dimenzija 30x30 cm koje su podjeljene na prohodna polja, prepreke i cilj. Prepreke su dalje podjeljene na zidove i rupe. 
