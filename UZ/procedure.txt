@@ -30,7 +30,6 @@ izracunaj_koord_ispred(INOUT t_x, t_y, smjer, OUT x, y)
         default:
             x = t_x
             x = t_y
-    t_smjer = t_smjer + 90
 
     
 pogledaj_unos(x, y)
@@ -48,7 +47,7 @@ END$$
 
 sljedece_polje(OUT smjer INT)
 BEING
-    SELECT polje.smjer INTO smjer FROM polje
+    SELECT t_smjer INTO smjer FROM polje
     ORDER BY idPolje DESC, tezina ASC
     LIMIT 1;
 END$$
