@@ -1,12 +1,17 @@
 dodaj_tezinu(x, y, tezina)
-    UPDATE TABLE polje
-    WHERE xcoord = x AND ycoord = y
-    SET tezina = tezina + 0.5
+BEGIN
+    IF EXISTS (SELECT 1 FROM polje WHERE xcoord = x AND ycoord = y) THEN
+        UPDATE TABLE polje
+        WHERE xcoord = x AND ycoord = y
+        SET tezina = tezina + 1;
+    ELSE
+        INSERT INTO polje (xcoord, ycoord, tezina) VALUES (x, y, 1);
+END$$
 
 skeniraj_uz(OUT koncept)
     ucitaj vrijednost UZ
     usporedi vrijednosti u look-up tablici
-    SET koncept = look-up.koncept
+    SET @koncept = look-up.koncept
 
 izracunaj_koord_ispred(INOUT t_x, t_y, smjer, OUT x, y)
     select smjer
@@ -22,5 +27,34 @@ izracunaj_koord_ispred(INOUT t_x, t_y, smjer, OUT x, y)
         case 270:
             x--
             y = t_y
+        default:
+            x = t_x
+            x = t_y
+    t_smjer = t_smjer + 90
+
+    
+pogledaj_unos(x, y)
+BEGIN
+    DECLARE tezina INT;
+    IF EXISTS (SELECT 1 FROM polje WHERE xcoord = x AND ycoord = y) THEN
+        UPDATE TABLE polje 
+        WHERE xcoord = x AND ycoord = y
+        SET tezina = tezina + 1;
+    ELSE
+        IF @koncept = 'zid' THEN SET tezina = 9999;
+        ELSE tezina = 1;
+        INSERT INTO polje (xcoord, ycoord, tezina) VALUES (x, y, tezina);
+END$$
+
+sljedece_polje(OUT smjer INT)
+BEING
+    SELECT polje.smjer INTO smjer FROM polje
+    ORDER BY idPolje DESC, tezina ASC
+    LIMIT 1;
+END$$
 
 
+========== NOTACIJA ===========
+t_* = trenutna koordinata
+s_* = sljedeca koordinata
+d_tezina = defaultna tezina
