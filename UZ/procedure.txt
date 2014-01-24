@@ -1,59 +1,111 @@
-dodaj_tezinu(x, y, tezina)
+
+================== PROTOTIPI ================== 
+init                        
+povecaj_tezinu              IN   x, y   
+skeniraj_uz              *  OUT  @koncept 
+izracunaj_koord_ispred      IN   @t_x, @t_y, smjer  OUT x, y
+pogledaj_unos               IN   x, y   
+ucitaj_sljedece_polje       OUT  @s_smjer
+
+
+================== PRODUKCIJE ==================
+DELIMITER $$
+CREATE PROCEDURE init()
 BEGIN
-    IF EXISTS (SELECT 1 FROM polje WHERE xcoord = x AND ycoord = y) THEN
+    DELETE FROM polje;
+    DELETE FROM stanje;
+    SET @t_x = 0;
+    SET @t_y = 0;
+    ALTER TABLE stanje AUTO_INCREMENT = 1;
+    ALTER TABLE polje AUTO_INCREMENT = 1;
+    INSERT INTO polje (xkoord, ykoord, tezina, d_tezina) VALUES (0, 0, 0, 0);
+    INSERT INTO stanje (poljeID, smjer) VALUES (1, 0);
+END$$
+DELIMITER ;
+
+
+
+DELIMITER $$
+CREATE PROCEDURE povecaj_tezinu(x INT, y INT)
+BEGIN
+    IF EXISTS (SELECT 1 FROM polje WHERE xkoord = x AND ykoord = y) THEN
         UPDATE TABLE polje
-        WHERE xcoord = x AND ycoord = y
+        WHERE xkoord = x AND ykoord = y
         SET tezina = tezina + 1;
     ELSE
-        INSERT INTO polje (xcoord, ycoord, tezina) VALUES (x, y, 1);
+        INSERT INTO polje (xkoord, ykoord, tezina) VALUES (x, y, 1);
 END$$
+DELIMITER ;
 
-skeniraj_uz(OUT koncept)
+
+
+DELIMITER $$
+CREATE PROCEDURE skeniraj_uz(OUT koncept)
     ucitaj vrijednost UZ
     usporedi vrijednosti u look-up tablici
     SET @koncept = look-up.koncept
 
-izracunaj_koord_ispred(INOUT t_x, t_y, smjer, OUT x, y)
-    select smjer
-        case 0:
-            y++
-            x = t_x
-        case 90:
-            x++
-            y = t_y
-        case 180:
-            y--
-            x = t_x
-        case 270:
-            x--
-            y = t_y
-        default:
-            x = t_x
-            x = t_y
 
-    
-pogledaj_unos(x, y)
+
+DELIMITER $$
+CREATE PROCEDURE izracunaj_koord_ispred(IN @t_x INT, IN @t_y INT, IN smjer INT, OUT x INT, OUT y INT)
+BEGIN
+    DECLARE x, y INT DEFAULT 0;
+    CASE smjer
+        WHEN 0 THEN (
+            SET x = @t_x;
+            SET y = @y_x + 1;
+        )
+        WHEN 90 THEN (
+            SET x = @t_x + 1;
+            SET y = @t_y;
+        )
+        WHEN 180 THEN (
+            SET x = @t_x;
+            SET y = @t_y - 1;
+        )
+        WHEN 270 THEN (
+            SET x = @t_x - 1;
+            SET y = @t_y;
+        )
+        ELSE (
+            SET x = @t_x;
+            SET y = @t_y;
+        )
+    END
+END$$
+DELIMITER ;
+
+
+
+DELIMITER $$
+CREATE PROCEDURE pogledaj_unos(x INT, y INT)
 BEGIN
     DECLARE tezina INT;
-    IF EXISTS (SELECT 1 FROM polje WHERE xcoord = x AND ycoord = y) THEN
+    IF EXISTS (SELECT 1 FROM polje WHERE xkoord = x AND ykoord = y) THEN
         UPDATE TABLE polje 
-        WHERE xcoord = x AND ycoord = y
+        WHERE xkoord = x AND ykoord = y
         SET tezina = tezina + 1;
     ELSE
         IF @koncept = 'zid' THEN SET tezina = 9999;
-        ELSE tezina = 1;
-        INSERT INTO polje (xcoord, ycoord, tezina) VALUES (x, y, tezina);
+        ELSE SET tezina = 1;
+        INSERT INTO polje (xkoord, ykoord, tezina) VALUES (x, y, tezina);
 END$$
+DELIMITER ;
 
-sljedece_polje(OUT smjer INT)
+
+
+DELIMITER $$
+CREATE PROCEDURE sljedece_polje(OUT @s_smjer INT)
 BEING
-    SELECT t_smjer INTO smjer FROM polje
+    SELECT t_smjer INTO @s_smjer FROM polje
     ORDER BY idPolje DESC, tezina ASC
     LIMIT 1;
 END$$
+DELIMITER ;
 
 
-========== NOTACIJA ===========
-t_* = trenutna koordinata
-s_* = sljedeca koordinata
-d_tezina = defaultna tezina
+================== NOTACIJA ==================
+t_* = trenutna vrijednost
+s_* = sljedeca vrijednost
+d_* = defaultna vrijednost
