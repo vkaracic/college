@@ -1,0 +1,29 @@
+NEURONSKA MREZA
+===============
+Format spremanja NN:
+    broj input cvorova
+    broj skrivenih cvorova
+    broj output cvorova
+    tezina veza cvorova inputa
+        tezine pojedinih cvorova odvojene zarezom
+        cvorovi odvojeni novim redom
+    tezine veza skrivenih cvorova odvojeni novim redom
+
+Naziv spremljenih NN:
+    NN<koncept>
+
+Format naredbi:
+    treniranje mreze za zid:
+        python NN.py testiranje_zid
+    output:
+        error rate
+
+    testiranje spremljene mreze za zid na nasumicnim ulaznim vrijednostima:
+        python NN.py test_zid <ime datotke / NNZid>
+    output:
+        [SB], [UZ] -> [rezultat] --> Target[TAR]
+
+    testiranje spremljene mreze za zid na unesenim vrijednostima:
+        python NN.py test_zid <ime datotke / NNZid> <vrijednost SB> <vrijednost UZ>
+    output:
+        [rezultat]
