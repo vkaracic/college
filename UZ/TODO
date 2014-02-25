@@ -1,0 +1,16 @@
+TODO
+
+- Povezati Python s MySQL 
+- Pokrenuti testnu proceduru s pythonom
+- Stvoriti bazu za istrazivaca
+* Stvoriti sve potrebne procedure u skladu s strukturom baze
+    ~dodane procedure init() i povecaj_tezinu()
+
+
+* Stvoriti NetLogo simulaciju robota i svijeta
+* Slati informacije s NetLogo simulacije do python skripte
+
+* Webstranica za projekt
+* JavaScript prikaz mape koncepata
+
+* NN.py urediti 

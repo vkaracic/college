@@ -30,7 +30,7 @@ CREATE TABLE `polje` (
   `d_tezina` int(11) DEFAULT '0',
   `t_smjer` int(11) DEFAULT '-90',
   PRIMARY KEY (`poljeID`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,6 +39,7 @@ CREATE TABLE `polje` (
 
 LOCK TABLES `polje` WRITE;
 /*!40000 ALTER TABLE `polje` DISABLE KEYS */;
+INSERT INTO `polje` VALUES (1,0,0,0,0,-90);
 /*!40000 ALTER TABLE `polje` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -54,7 +55,7 @@ CREATE TABLE `stanje` (
   `smjer` int(11) DEFAULT '0',
   `poljeID` int(11) NOT NULL,
   PRIMARY KEY (`vrijeme`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -63,8 +64,64 @@ CREATE TABLE `stanje` (
 
 LOCK TABLES `stanje` WRITE;
 /*!40000 ALTER TABLE `stanje` DISABLE KEYS */;
+INSERT INTO `stanje` VALUES (1,0,1);
 /*!40000 ALTER TABLE `stanje` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping routines for database 'istrazivac'
+--
+/*!50003 DROP PROCEDURE IF EXISTS `init` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = '' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `init`()
+BEGIN
+DELETE FROM polje;
+    DELETE FROM stanje;
+    SET @t_x = 0;
+    SET @t_y = 0;
+    ALTER TABLE stanje AUTO_INCREMENT = 1;
+    ALTER TABLE polje AUTO_INCREMENT = 1;
+    INSERT INTO polje (xkoord, ykoord, tezina, d_tezina) VALUES (0, 0, 0, 0);
+    INSERT INTO stanje (poljeID, smjer) VALUES (1, 0);
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
+/*!50003 DROP PROCEDURE IF EXISTS `povecaj_tezinu` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = '' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `povecaj_tezinu`(x INT, y INT)
+BEGIN
+    IF EXISTS (SELECT 1 FROM polje WHERE xkoord = x AND ykoord = y) THEN
+        UPDATE polje
+        SET tezina = tezina + 1
+        WHERE xkoord = x AND ykoord = y;
+    ELSE
+        INSERT INTO polje (xkoord, ykoord, tezina) VALUES (x, y, 1);
+    END IF;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -75,4 +132,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-24  2:33:50
+-- Dump completed on 2014-02-25 17:05:51

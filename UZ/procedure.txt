@@ -29,16 +29,17 @@ DELIMITER $$
 CREATE PROCEDURE povecaj_tezinu(x INT, y INT)
 BEGIN
     IF EXISTS (SELECT 1 FROM polje WHERE xkoord = x AND ykoord = y) THEN
-        UPDATE TABLE polje
-        WHERE xkoord = x AND ykoord = y
-        SET tezina = tezina + 1;
+        UPDATE polje
+        SET tezina = tezina + 1
+        WHERE xkoord = x AND ykoord = y;
     ELSE
         INSERT INTO polje (xkoord, ykoord, tezina) VALUES (x, y, 1);
+    END IF;
 END$$
 DELIMITER ;
 
 
-
+-- simulirati!
 DELIMITER $$
 CREATE PROCEDURE skeniraj_uz(OUT koncept)
     ucitaj vrijednost UZ
