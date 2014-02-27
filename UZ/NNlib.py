@@ -147,133 +147,32 @@ def randomizeMatrix ( matrix, a, b):
     for j in range ( len (matrix[0]) ):
       matrix[i][j] = random.uniform(a,b)
 
-def neuro(argv):
+def neuro(SB, UZ):
     #############       ZID         ######################
     ######################################################
-    if argv[0] == 'treniraj_zid':
-        br_input = 2
-        br_hidden = 2
-        br_output = 1
-        n = NN(br_input, br_hidden, br_output)
+      f = open('NNZid', 'r')
+      br_input = int(f.readline().strip('\n'))
+      br_hidden = int(f.readline().strip('\n'))
+      br_output = int(f.readline().strip('\n'))
 
-        data_set = []
-        broj = 40
-        for i in range(broj):
-            SB = random.randrange(0, 6)
-            UZ = random.randrange(1, 30)
-            TAR = 1
-            data_set.append([normaliziraj(SB, UZ), [TAR]])
-        for j in range(broj):
-            SB = random.randrange(1, 6)
-            UZ = random.randrange(30, 100)
-            TAR = 0
-            data_set.append([normaliziraj(SB, UZ), [TAR]])       
+      inputWeights = []
+      for i in range(br_input + 1):
+          temp = f.readline().strip('\n')
+          temp = temp.split(',')
+          temp = [float(i) for i in temp]
+          inputWeights.append(temp)
 
-        n.train(data_set)
+      outputWeights = []
+      for i in range(br_hidden):
+          temp = f.readline().strip('\n')
+          outputWeights.append(float(temp))
+      f.close()
 
-        n.save_nn('zid', [br_input, br_hidden, br_output])
+      net = NN(br_input, br_hidden, br_output)
+      net.set_weights(inputWeights, outputWeights)
 
-    if argv[0] == 'test_zid':
-
-        f = open(argv[1], 'r')
-        br_input = int(f.readline().strip('\n'))
-        br_hidden = int(f.readline().strip('\n'))
-        br_output = int(f.readline().strip('\n'))
-
-        inputWeights = []
-        for i in range(br_input + 1):
-            temp = f.readline().strip('\n')
-            temp = temp.split(',')
-            temp = [float(i) for i in temp]
-            inputWeights.append(temp)
-
-        outputWeights = []
-        for i in range(br_hidden):
-            temp = f.readline().strip('\n')
-            outputWeights.append(float(temp))
-        f.close()
-
-        net = NN(br_input, br_hidden, br_output)
-        net.set_weights(inputWeights, outputWeights)
-
-        if len(argv) > 2:
-          print net.runNN(normaliziraj(argv[2], argv[3]))
-        else: 
-          test_set = []
-          for x in range(30):
-              SB = random.randint(1, 6)
-              UZ = random.randint(1, 100)
-              if UZ < 30:
-                  TAR = 1
-              else:
-                  TAR = 0
-              test_set.append([normaliziraj(SB, UZ), [TAR]]) 
-
-          net.test(test_set)
-
-    #############       RUPA         #####################
-    ######################################################
-    if argv[0] == 'treniraj_rupa':
-        br_input = 2
-        br_hidden = 2
-        br_output = 1
-        n = NN(br_input, br_hidden, br_output)
-
-        data_set = []
-        broj = 100
-        for i in range(broj):
-            SB = 3
-            UZ = random.randrange(1, 100)
-            TAR = 1
-            data_set.append([normaliziraj(SB, UZ), [TAR]])
-
-        temp = range(1, 3) + range(4, 6)
-        for j in range(broj):
-            SB = random.choice(temp)
-            UZ = random.randrange(1, 100)
-            TAR = 0
-            data_set.append([normaliziraj(SB, UZ), [TAR]])       
-
-        n.train(data_set, max_iterations=10000)
-
-        n.save_nn('rupa', [br_input, br_hidden, br_output])
-
-    if argv[0] == 'test_rupa':
-
-        f = open('NNZid', 'r')
-        br_input = int(f.readline().strip('\n'))
-        br_hidden = int(f.readline().strip('\n'))
-        br_output = int(f.readline().strip('\n'))
-
-        inputWeights = []
-        for i in range(br_input + 1):
-            temp = f.readline().strip('\n')
-            temp = temp.split(',')
-            temp = [float(i) for i in temp]
-            inputWeights.append(temp)
-
-        outputWeights = []
-        for i in range(br_hidden):
-            temp = f.readline().strip('\n')
-            outputWeights.append(float(temp))
-        f.close()
-
-        net = NN(br_input, br_hidden, br_output)
-        net.set_weights(inputWeights, outputWeights)
-
-
-        test_set = []
-        for x in range(30):
-            SB = random.randint(1, 6)
-            UZ = random.randint(1, 100)
-            if SB == 3:
-                TAR = 1
-            else:
-                TAR = 0
-            test_set.append([normaliziraj(SB, UZ), [TAR]]) 
-
-        net.test(test_set)
-
-
-if __name__ == '__main__':
-    neuro(sys.argv[1:])
+      rezultat = net.runNN(normaliziraj(SB, UZ))
+      if rezultat[0] > 0.5:
+        return 1
+      else:
+        return 0

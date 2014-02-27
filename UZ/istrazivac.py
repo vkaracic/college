@@ -1,4 +1,6 @@
 import MySQLdb
+import NNlib
+
 
 conn = MySQLdb.connect(host="localhost", user="root", passwd="lozinka", db="istrazivac")
 cursor = conn.cursor()
@@ -12,6 +14,21 @@ xkoord, ykoord = cursor.fetchone()
 print xkoord, ykoord
 cursor.execute("CALL povecaj_tezinu(%s, %s)",(xkoord, ykoord))
 conn.commit()
+
+print "Unesi vrijednosti za polje: (%d, %d): " % (xkoord, ykoord)
+SB = input("SB: ")
+UZ = input("UZ: ")
+
+if NNlib.neuro(SB, UZ) == 1:
+    koncept = 'zid'
+else:
+    koncept = 'prazan prostor'
+
+print "Ispred je %s" % koncept
+
+
+
+
 
 ## Skeniraj senzorima polje ispred sebe
 ## trebat ce koristiti manualni unos za sada
