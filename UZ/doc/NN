@@ -6,3 +6,8 @@
 NN.py
 - skripta za treniranje koncepta, trenutno samo radi za zid
 - generira se nasumicno broj elemenata (uredjeni par SB i UZ) koji je određen varijablom [223]'broj'. U listu data_set[] se dodaju ti nasumicni elementi. Prvo 'broj' elemenata gdje je SB nasumican od 1-6 i UZ od 1-30 koji predstavljaju vrijednosti zida, nakon njih sprema se 'broj' elemenata kojima je UZ 30-100 koji predstavljaju vrijednosti slobodnog prostora
+
+- vecina koda za NN besramno kopirano s interneta
+
+- nakon sto se NN istrenira, sprema se u NNZid datoteku, cija struktura je objasnjena u komentarima u kodu
+- 
