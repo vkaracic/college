@@ -3,12 +3,14 @@ import random
 import string
 import sys
 
+# normalizacija unosa NN po formuli za Max-Min normalizaciji
+# primjer: http://www.cs.sunysb.edu/~cse634/ch6NN.pdf
 def normaliziraj(sb, uz):
     return [float(sb)/5, float(uz)/100]
 
 class NN:
   def __init__(self, NI, NH, NO):
-    self.ni = NI + 1
+    self.ni = NI + 1 # dodatak za bias
     self.nh = NH
     self.no = NO
     
@@ -90,7 +92,17 @@ class NN:
     for j in range(self.nh):
       print self.wo[j]
     print ''
-  
+
+
+  # spremanje NN
+  # Format spremanja NN:
+  #   broj input cvorova
+  #   broj skrivenih cvorova
+  #   broj output cvorova
+  #   tezina veza cvorova inputa
+  #       tezine pojedinih cvorova odvojene zarezom
+  #       cvorovi odvojeni novim redom
+  #   tezine veza skrivenih cvorova odvojeni novim redom
   def save_nn(self, koncept, NN):
     if koncept == 'zid':
         f = open('NNZid', 'w')
@@ -109,6 +121,8 @@ class NN:
       f.write('\n')
     f.close()
 
+  # postavljanje ucitanih tezina iz datoteke
+  # dio loadiranja NN
   def set_weights(self, wi, wo):
     for i in range(self.ni):
       self.wi[i] = wi[i]
@@ -150,11 +164,15 @@ def randomizeMatrix ( matrix, a, b):
 def neuro(SB, UZ):
     #############       ZID         ######################
     ######################################################
+
+    # POCETAK procesa ucitavanja NN iz datoteke NNZid
+      # ucitavanje strukture NN
       f = open('NNZid', 'r')
       br_input = int(f.readline().strip('\n'))
       br_hidden = int(f.readline().strip('\n'))
       br_output = int(f.readline().strip('\n'))
 
+      # ucitavanje input tezina
       inputWeights = []
       for i in range(br_input + 1):
           temp = f.readline().strip('\n')
@@ -162,16 +180,21 @@ def neuro(SB, UZ):
           temp = [float(i) for i in temp]
           inputWeights.append(temp)
 
+      # ucitavanje output tezina
       outputWeights = []
       for i in range(br_hidden):
           temp = f.readline().strip('\n')
           outputWeights.append(float(temp))
       f.close()
 
+      # stvaranje NN po ucitanim parametrima
       net = NN(br_input, br_hidden, br_output)
       net.set_weights(inputWeights, outputWeights)
 
+      # pokretanje NN i testiranje za trazene vrijednosti
       rezultat = net.runNN(normaliziraj(SB, UZ))
+
+      # peglanje rezultata
       if rezultat[0] > 0.5:
         return 1
       else:

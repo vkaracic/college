@@ -30,8 +30,8 @@ print "Ispred je %s" % koncept
 
 
 
-## Skeniraj senzorima polje ispred sebe
-## trebat ce koristiti manualni unos za sada
+## +Skeniraj senzorima polje ispred sebe
+## +trebat ce koristiti manualni unos za sada
 
 ## Dodati te vrijednosti u bazu:
 ###   izracunati koordinate polja ispred

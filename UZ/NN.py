@@ -91,6 +91,16 @@ class NN:
       print self.wo[j]
     print ''
   
+  # spremanje NN
+  # Format spremanja NN:
+  #   broj input cvorova
+  #   broj skrivenih cvorova
+  #   broj output cvorova
+  #   tezina veza cvorova inputa
+  #       tezine pojedinih cvorova odvojene zarezom
+  #       cvorovi odvojeni novim redom
+  #   tezine veza skrivenih cvorova odvojeni novim redom
+
   def save_nn(self, koncept, NN):
     if koncept == 'zid':
         f = open('NNZid', 'w')
@@ -109,6 +119,7 @@ class NN:
       f.write('\n')
     f.close()
 
+  # loadiranje NN
   def set_weights(self, wi, wo):
     for i in range(self.ni):
       self.wi[i] = wi[i]
@@ -151,30 +162,39 @@ def neuro(argv):
     #############       ZID         ######################
     ######################################################
     if argv[0] == 'treniraj_zid':
+      # broj elemenata NN je fiksiran na 2 2 1
         br_input = 2
         br_hidden = 2
         br_output = 1
+        # inicijalizira se NN
         n = NN(br_input, br_hidden, br_output)
 
+        # generiranje data seta za treniranje
         data_set = []
-        broj = 40
+        broj = 40 # mijenjati po potrebi
+        # broj elemenata kada je zid
         for i in range(broj):
             SB = random.randrange(0, 6)
-            UZ = random.randrange(1, 30)
-            TAR = 1
+            UZ = random.randrange(1, 31) # UZ kod zida je [1-30]
+            TAR = 1 # target 1 > zid
             data_set.append([normaliziraj(SB, UZ), [TAR]])
+        # broj elemenata kada nije zid
         for j in range(broj):
             SB = random.randrange(1, 6)
-            UZ = random.randrange(30, 100)
-            TAR = 0
+            UZ = random.randrange(31, 100) # UZ kod praznog prostora [31 - 100] // UZ ogranicen na max 100
+            TAR = 0 # target 0 > prazan prostor
             data_set.append([normaliziraj(SB, UZ), [TAR]])       
 
+        # treniranje NN
         n.train(data_set)
 
+        # spremanje NN u 'NNZid' datoteku
         n.save_nn('zid', [br_input, br_hidden, br_output])
+
 
     if argv[0] == 'test_zid':
 
+        # loadiranje istrenirane NN gdje je argv[1] ime datoteke gdje je spremljena NN
         f = open(argv[1], 'r')
         br_input = int(f.readline().strip('\n'))
         br_hidden = int(f.readline().strip('\n'))
@@ -196,9 +216,12 @@ def neuro(argv):
         net = NN(br_input, br_hidden, br_output)
         net.set_weights(inputWeights, outputWeights)
 
+
+        # ako je vise od dva argumenta (ime datoteke gdje je spremljena NN) onda se pretpostavlja da se testira samo jedan unos gdje je argv[2] = SB vrijednost, argv[3] = UZ vrijednost
         if len(argv) > 2:
           print net.runNN(normaliziraj(argv[2], argv[3]))
         else: 
+        # ako nema vise od dva vrsi se testiranje na nasumicno generiranom data setu
           test_set = []
           for x in range(30):
               SB = random.randint(1, 6)
@@ -211,7 +234,7 @@ def neuro(argv):
 
           net.test(test_set)
 
-    #############       RUPA         #####################
+    #############       RUPA   (ne radi)##################
     ######################################################
     if argv[0] == 'treniraj_rupa':
         br_input = 2

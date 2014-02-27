@@ -1,0 +1,8 @@
+- neuronska mreza koja koristi backpropagation algoritam
+- unos su vrijednosti SB i UZ
+- izlaz koncept
+
+
+NN.py
+- skripta za treniranje koncepta, trenutno samo radi za zid
+- generira se nasumicno broj elemenata (uredjeni par SB i UZ) koji je određen varijablom [223]'broj'. U listu data_set[] se dodaju ti nasumicni elementi. Prvo 'broj' elemenata gdje je SB nasumican od 1-6 i UZ od 1-30 koji predstavljaju vrijednosti zida, nakon njih sprema se 'broj' elemenata kojima je UZ 30-100 koji predstavljaju vrijednosti slobodnog prostora
