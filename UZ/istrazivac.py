@@ -17,10 +17,11 @@ while True:
     cursor.execute("CALL povecaj_tezinu(%s, %s)",(xkoord, ykoord))
     conn.commit()
 
-    # Skeniraj senzorima polje ispred sebe
-    # - rucni unos vrijednosti senzora
+    okruzenje = dict()
 
     for i in range(4):
+        # Skeniraj senzorima polje ispred sebe
+        # - rucni unos vrijednosti senzora
         print "Unesi vrijednosti za polje ispred"
         SB = input("SB: ")
         UZ = input("UZ: ")
@@ -43,6 +44,12 @@ while True:
         # - izracunaj i spremi vrijednosti polja ispred
         cursor.execute("CALL spremi_polje_ispred(%s)", smjer)
 
+        # dodaj vrijednosti polja u okruzenje
+        cursor.execute("SELECT poljeID, tezina FROM polje WHERE xkoord = @pi_x AND ykoord = @pi_y")
+        poljeID, tezina = cursor.fetchone()
+
+        okruzenje[int(poljeID)] = int(tezina)
+
         # - ucitaj koordinate polja ispred
         cursor.execute("SELECT @pi_x, @pi_y;")
         pi_x, pi_y = cursor.fetchone()
@@ -51,24 +58,28 @@ while True:
         conn.commit()
 
 
-        print "%s spremljeno na polju (%s, %s)\n" % (koncept, pi_x, pi_y)
+        print "%s spremljeno na polju (%s, %s)" % (koncept, pi_x, pi_y)
         # Skreni 90 stupnjeva na desno
         cursor.execute("UPDATE stanje SET smjer = IF(smjer < 250, smjer + 90, 0);")
         conn.commit()
-        print "Okrecem se desno 90 stupnjeva"
+        print "Okrecem se desno 90 stupnjeva\n"
 
-    # Idi na sljedece polje s najmanjom tezinom
-    cursor.execute("CALL sljedece_polje()")
-    cursor.execute("SELECT @s_polje;")
-    s_polje = cursor.fetchone()
+    s_polje = min(okruzenje, key=okruzenje.get)
+
+    # # Idi na sljedece polje s najmanjom tezinom
+    # cursor.execute("CALL sljedece_polje()")
+    # cursor.execute("SELECT @s_polje;")
+    # s_polje = cursor.fetchone()
 
     cursor.execute("SELECT xkoord, ykoord, tezina, t_smjer FROM polje WHERE poljeID = %s", s_polje)
     s_x, s_y, s_tezina, s_smjer = cursor.fetchone()
-    print "Idem na sljedece polje (%s, %s)[%s]" % (s_x, s_y, s_tezina)
+
+    print "IDEM NA (%s, %s)[%s]" % (s_x, s_y, s_tezina)
 
     # Azuriranje stanja poslije pomaka robota
     cursor.execute("UPDATE stanje SET poljeID = %s;", s_polje)
     cursor.execute("UPDATE stanje SET smjer = %s;", s_smjer)
+    cursor.execute("SET @t_x = %s, @t_y = %s", (s_x, s_y))
     conn.commit()
 conn.close()
 

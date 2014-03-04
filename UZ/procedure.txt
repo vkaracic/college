@@ -46,7 +46,7 @@ DROP PROCEDURE IF EXISTS spremi_polje_ispred $$
 CREATE PROCEDURE spremi_polje_ispred(smjer INT)
 BEGIN
     DECLARE x, y INT DEFAULT 0;
-    DECLARE tezina INT;
+    DECLARE n_tezina INT;
     CASE smjer
         WHEN 0 THEN 
             SET x = @t_x;
@@ -73,16 +73,16 @@ BEGIN
     SET @pi_x = x;
     SET @pi_y = y;
 
-    IF (SELECT COUNT(*) FROM polje WHERE xkoord = x AND ykoord = y) > 0 THEN 
+    IF ((SELECT COUNT(*) FROM polje WHERE xkoord = x AND ykoord = y) > 0) THEN 
         UPDATE polje 
         SET tezina = tezina + 1
         WHERE xkoord = x AND ykoord = y;
     ELSE
         BEGIN
-        IF @koncept = 'zid' THEN SET tezina = 9999;
-        ELSE SET tezina = 1;
+        IF @koncept = 'zid' THEN SET n_tezina = 9999;
+        ELSE SET n_tezina = 1;
         END IF;
-        INSERT INTO polje (xkoord, ykoord, tezina, d_tezina) VALUES (x, y, tezina, tezina);
+        INSERT INTO polje (xkoord, ykoord, tezina, d_tezina) VALUES (x, y, n_tezina, n_tezina);
         END;
     END IF;
 END$$
@@ -99,6 +99,8 @@ BEGIN
     LIMIT 1;
 END$$
 DELIMITER ;
+
+
 
 
 ================== NOTACIJA ==================
