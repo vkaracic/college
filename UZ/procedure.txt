@@ -31,10 +31,10 @@ CREATE PROCEDURE povecaj_tezinu(x INT, y INT)
 BEGIN
     IF EXISTS (SELECT 1 FROM polje WHERE xkoord = x AND ykoord = y) THEN
         UPDATE polje
-        SET tezina = tezina + 1
+        SET tezina = tezina + 2
         WHERE xkoord = x AND ykoord = y;
     ELSE
-        INSERT INTO polje (xkoord, ykoord, tezina) VALUES (x, y, 1);
+        INSERT INTO polje (xkoord, ykoord, tezina) VALUES (x, y, 2);
     END IF;
 END$$
 DELIMITER ;

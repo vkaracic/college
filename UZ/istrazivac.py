@@ -1,24 +1,28 @@
 import MySQLdb
 import NNlib
 
-# konekcija na bazu
+# Konekcija na bazu
 conn = MySQLdb.connect(host="localhost", user="root", passwd="lozinka", db="istrazivac")
 cursor = conn.cursor()
 
 # POCETAK
 cursor.execute("CALL init")
 conn.commit()
+
+# Petlja koje se stalno vrti dok korisnik ne unese broj
 while True:
     # Ucitaj trenutne koordinate
     cursor.execute("SELECT xkoord, ykoord FROM polje WHERE poljeID = (SELECT poljeID from stanje)")
-    xkoord, ykoord = cursor.fetchone()
+    xkoord, ykoord = cursor.fetchone() # spremi rezultate SQL querya u varijable
 
-    # Povecaj tezinu polja na kojem se nalazis za 1
+    # Povecaj tezinu polja na kojem se nalazis za 2
     cursor.execute("CALL povecaj_tezinu(%s, %s)",(xkoord, ykoord))
     conn.commit()
 
+    # U 'okruzenje' se spremaju sva polja okolo robota u tom trenutku da bi se mogalo izracunati sljedece polje na koje ce robot ici. Format: {ID polja: tezina polja}
     okruzenje = dict()
 
+    # Petlja za skeniranje okolo sebe, 1 - 4 za svaku stranu
     for i in range(4):
         # Skeniraj senzorima polje ispred sebe
         # - rucni unos vrijednosti senzora
@@ -44,10 +48,9 @@ while True:
         # - izracunaj i spremi vrijednosti polja ispred
         cursor.execute("CALL spremi_polje_ispred(%s)", smjer)
 
-        # dodaj vrijednosti polja u okruzenje
+        # - dodaj vrijednosti polja u okruzenje
         cursor.execute("SELECT poljeID, tezina FROM polje WHERE xkoord = @pi_x AND ykoord = @pi_y")
         poljeID, tezina = cursor.fetchone()
-
         okruzenje[int(poljeID)] = int(tezina)
 
         # - ucitaj koordinate polja ispred
@@ -57,23 +60,22 @@ while True:
         cursor.execute("UPDATE polje SET t_smjer = (SELECT smjer FROM stanje) WHERE xkoord = %s AND ykoord = %s;", (pi_x, pi_y))
         conn.commit()
 
-
+        # - izvjestaj korisniku sto je spremljeno u bazu (manualna kontrola tocnosti)
         print "%s spremljeno na polju (%s, %s)" % (koncept, pi_x, pi_y)
-        # Skreni 90 stupnjeva na desno
+        # Skreni 90 stupnjeva na desno; smjeru se dodaje +90, a ako je vece od 250 vraca se na 0
         cursor.execute("UPDATE stanje SET smjer = IF(smjer < 250, smjer + 90, 0);")
         conn.commit()
         print "Okrecem se desno 90 stupnjeva\n"
 
+    # Izracun sljedeceg polja tako sto se iterira rjecnik 'okruzenje' i uzima kljuc s najmanjom vrijednosti
     s_polje = min(okruzenje, key=okruzenje.get)
 
-    # # Idi na sljedece polje s najmanjom tezinom
-    # cursor.execute("CALL sljedece_polje()")
-    # cursor.execute("SELECT @s_polje;")
-    # s_polje = cursor.fetchone()
-
+    # Idi na sljedece polje s najmanjom tezinom
+    # - iz baze se ucitavaju vrijenosti sljedeceg polja koja ce se kasnije spremiti u tablicu 'stanje'
     cursor.execute("SELECT xkoord, ykoord, tezina, t_smjer FROM polje WHERE poljeID = %s", s_polje)
     s_x, s_y, s_tezina, s_smjer = cursor.fetchone()
 
+    # - izvjestaj korisniku gdje robot ide dalje (x, y)[tezina]
     print "IDEM NA (%s, %s)[%s]" % (s_x, s_y, s_tezina)
 
     # Azuriranje stanja poslije pomaka robota
@@ -81,16 +83,6 @@ while True:
     cursor.execute("UPDATE stanje SET smjer = %s;", s_smjer)
     cursor.execute("SET @t_x = %s, @t_y = %s", (s_x, s_y))
     conn.commit()
+
+# Zatvaranje konekcije
 conn.close()
-
-## +Skeniraj senzorima polje ispred sebe
-## +trebat ce koristiti manualni unos za sada
-
-## Dodati te vrijednosti u bazu:
-###   izracunati koordinate polja ispred
-###   pogledati ima li vec uneseno polje s tim koordinatama
-###     i unijeti koordinate accordingly
-
-## Srenuti robota za 90 stupnjeva u desnu stranu 
-
-## Ponoviti Skeniranje
