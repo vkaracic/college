@@ -1,0 +1,935 @@
+ADL model	sadržava	SCORM (Sharable Content Object Referenc Model)	
+Administriranje Sudionika	ima	Administrator Sustava	
+Administriranje Sudionika	ima	Strucnjak Podrucnog Znanja	
+Administriranje Sudionika	ima	Ucenik	
+Administriranje Sudionika	ima	Ucitelj	
+Administriranje Sudionika	se temelji na	Tradicionalno Nacelo Ucenja	
+Adobe Captivate 5.5	je dio od	Litmos	
+Adobe Captivate 5.5	služi za	Izradu Kvizova I Igara	
+AICC model	sadržava	Assigned units lessons	
+Aktivnosti	su jedna od	Mogucnosti sustava moodle	
+Aktivnosti	imaju sudionike	Profesori	
+Aktivnosti	imaju sudionike	Ucenici	
+Aktivnosti	se dijele prema	Osnovne vrste objekata	
+Alat	služi za	Prikupljanje sadržaja za ucenje	
+Alati Za Oblikovanje Sadržaja	ima primjer	Rapid Intake	
+Alati Za Oblikovanje Sadržaja	ima primjer	Adobe Captivate 5.5	
+Alati Za Oblikovanje Sadržaja	ima primjer	Brainshark	
+Alati Za Oblikovanje Sadržaja	ima primjer	Articultate	
+Alati Za Oblikovanje Sadržaja	ima primjer	Camtasia Studio 7	
+Alati Za Oblikovanje Sadržaja	ima primjer	Lectora	
+Alati Za Oblikovanje Sadržaja	koristi	Ucitelj	
+Alati Za Oblikovanje Sadržaja	koristi	Strucnjak Podrucnog Znanja	
+Alati Za Oblikovanje Sadržaja	koristi se za stvaranje	Nastavni Objekt	
+Alati Za Oblikovanje Sadržaja	može biti	Programska Aplikacija	
+Alati Za Oblikovanje Sadržaja	ukljucuju	Flash	
+Alati Za Oblikovanje Sadržaja	ukljucuju	Html	
+Alati Za Prikupljanje Sadržaja	dopušta povezivanje na	Modul	
+Alati Za Prikupljanje Sadržaja	dopušta povezivanje na	Komponente	
+Alati Za Prikupljanje Sadržaja	koristi se za stvaranje	Predložak	
+Animacija	omogucava	Uspješnije obavljanje vježbi i postizanje boljih rezultata	
+Aplikacija	služi za	Dostava Nastavnih Materijala	
+Aplikacija	služi za	Pracenje	
+Aplikacija	služi za	Izvještavanje	
+Aplikacija	služi za	Dokumentacija	
+Aplikacija	služi za	Administracija	
+Articulate Presenter	je dio od	Litmos	
+Articulate Presenter	služi za	Izradu Kvizova I Igara	
+ASinkroni Nacin Isporuke Isporuke	ima primjer	On-Line Diskusijske Grupe	
+ASinkroni Nacin Isporuke Isporuke	ima primjer	Komunikacija Putem Elektronicke Pošte.	
+ASinkroni Nacin Isporuke Isporuke	ima primjer	Tecajevi Isporuceni Putem Interneta	
+ASinkroni Nacin Isporuke Isporuke	ima primjer	Tecajevi Isporuceni Preko Cd Ili Dvd Medija	
+Asinkrono ucenje	može biti	Elektronicka Pošta	
+Asinkrono ucenje	može biti	Inteligentni Tutorski Sustavi	
+Asinkrono ucenje	može biti	Novinske Grupe	
+Asinkrono ucenje	može biti	Blog	
+Asinkrono ucenje	može biti	Forum & Threaded Discussion	
+Asinkrono ucenje	može biti	Wiki	
+Asinkrono ucenje	odvija se izmecu	Sudionika U Obrazovnom Sustavu	
+Asinkrono ucenje	omogucava	Raspodijeljeno Ucenje	
+Asinkrono ucenje	omogucava	Korisnici Aktivni U Razlicito Vrijeme	
+Asinkrono ucenje	karakteriziraju	Dobre strane	
+Asinkrono ucenje	sadrži	Komponente	
+Asinkrono ucenje	se odvija u razlicitom	Mjesto	
+Asinkrono ucenje	se odvija u razlicitom	Vrijeme	
+Asinkrono ucenje	karakteriziraju	Loše strane	
+Autor Sadržaja	može biti	Strucnjak Podrucnog Znanja	
+Autor Sadržaja	može biti	Ucitelj	
+Autorski alat	služi za	Pospremanje sadržaja za ucenje	
+Autorski alat	služi za	Pretraživanje sadržaja za ucenje	
+Autorski alat	služi za	Oblikovanje sadržaja za ucenje	
+Autorski alat	može biti	Naplativi Alati	
+Autorski alat	može biti	Nenaplativi Alati	
+Autorski alat	predstavlja	Okruženje	
+Autorski alat	se sastoji od	Alati Za Prikupljanje Sadržaja	
+Autorski alat	se sastoji od	Alati Za Oblikovanje Sadržaja	
+Autorski alat	služi za	Oblikovanje Lista Za Vocenje Diskusija I Rasprava Ucesnika Sustava Za E-Ucenje	
+Autorski alat	služi za	Oblikovanje I Urecivanje On-Line Kvizova	
+Autorski alat	služi za	Oblikovanje Nastavnih Sadržaja	
+Blog	ima	Dodavanje Multimedije	
+Blog	ima	Tekst	
+Blog	ima	Online Dnevnik	
+Brainshark	se nalazi na	WWW	
+Broadcast & Cable Television	ima primjer	Discovery Channel	
+Camtasia Studio 7	je dio od	Litmos	
+CD-ROM	omogucava	Isporuka sadržaja	
+CD-ROM	omogucava	On-line ucenje	
+CD-ROM	omogucava	Individualizirano ucenje	
+CD-ROM	omogucava	Interaktivno ucenje	
+CD-ROM	ima primjer	Hybrid Dics	
+Chat	omogucava	Razmjena Poruka	
+Collaboration & Community	ima podvrstu	Chat	
+Collaboration & Community	ima podvrstu	Im	
+Daljinsko Ucenje	odvija se preko	Racunalna Mreža	
+Daljinsko Ucenje	ima podvrstu	Interaktivno	
+Datoteka	može biti	Graficka Datoteka	
+Datoteka	može biti	Tekstualna Datoteka	
+Datoteka	može biti	Zvucna Datoteka	
+Datoteka	sadrži	Obrazovni sadržaj	
+Digitalni oblik	sadrži	Video	
+Digitalni oblik	sadrži	Animacija	
+Digitalni oblik	sadrži	Tekst	
+Digitalni oblik	sadrži	Slika	
+Digitalni oblik	sadrži	Simalacija	
+Digitalni oblik	sadrži	Zvuk	
+dimenzije	sadrži	korisnicko sucelje	
+dimenzije	sadrži	poslovanje	
+dimenzije	sadrži	procjenjivanje	
+dimenzije	sadrži	tehnologija	
+dimenzije	sadrži	institucija	
+dimenzije	sadrži	on-line podrška	
+dimenzije	sadrži	pedagogija	
+Diploma	je	Svjetski Priznata Diploma	
+Diploma	je	Nacionalno Priznata Diploma	
+Direktorij	sadrži	Obrazovni sadržaj	
+Direktorij	sadrži	Datoteka	
+Diskusija	je dio	Blog	
+Diskusija	je dio	Forum	
+Distance Learning Tehnologija	ima podvrstu	Broadcast & Cable Television	
+Distance Learning Tehnologija	ima podvrstu	Phone Konfrencija	
+Distance Learning Tehnologija	ima podvrstu	Video Konfernecija	
+Dobre strane	su	Kontrola nad redom ucenja sadržaja	
+Dobre strane	su	Proucavanje sadržaja na više nacina	
+Dobre strane	su	organizacija i raspored vremena za ucenje	
+Dobre strane	su	više vremena za razmišljanje i odgovaranje na pitanja	
+Dodatni materijal	može biti	Kviz	
+Dodavanje Multimedije	koristi se za	Proces Poucavanja	
+Dodavanje Multimedije	koristi se za	Proces Ucenja	
+Dodjela Zadaca	podrazumijeva	Izrada Zadatka	
+Dogacaj unutar kolegija	može biti	Predaja radova	
+Dogacaj unutar kolegija	može biti	Pocetak pisanja testa	
+Dogacaji	imaju podvrstu	Grupni dogacaji	
+Dogacaji	imaju podvrstu	Korisnicka dogacanja	
+Dogacaji	imaju podvrstu	Globalni dogacaj	
+Dogacaji	imaju podvrstu	Dogacaj unutar kolegija	
+Dokument u PDF formatu	je omogucen za	Skidanje	
+Dokument u PDF formatu	sadrži	Grafike	
+Društvena Mreža	ima primjer	Facebook	
+Društvena Mreža	ima primjer	Myspace	
+Društvena Mreža	ima primjer	Twitter	
+Društvena Programska Podrška	ima	Mrežnu Platformu	
+Društvene Oznake	koristi	Flickr	
+DVD	omogucava	Individualizirano ucenje	
+DVD	omogucava	Interaktivno ucenje	
+DVD	omogucava	On-line ucenje	
+Elektronicki Medij	može biti	CD-ROM	
+Elektronicki Medij	može biti	DVD	
+Elektronicki urecaji	su	Mobiteli	
+Elektronicki urecaji	su	PDA	
+Elektronicki urecaji	su	Racunala	
+Elliott Masie	definira	Ucenje	
+Entitet	može biti	Digitalni oblik	
+Entitet	može biti	Ne-digitalni oblik	
+e-ucenje	ima	Sustav Za Upravljanje Procesom Ucenja	
+e-ucenje	je primjena informacijske tehnologije na	Proces poucavanja	
+e-ucenje	je primjena informacijske tehnologije na	Obrazovanje	
+e-ucenje	je primjena informacijske tehnologije na	Proces ucenja	
+e-ucenje	je upotreba mrežne tehnologije za	Oblikovanje	
+e-ucenje	je upotreba mrežne tehnologije za	Odabir	
+e-ucenje	je upotreba mrežne tehnologije za	Isporuka	
+e-ucenje	je upotreba mrežne tehnologije za	Administriranje i proširenje ucenja	
+e-ucenje	nastala od	Eng. termin eLearning	
+e-ucenje	obuhvaca	Prikupljanje i upotreba znanja	
+e-ucenje	obuhvaca	Upotrebu elektronickih urecaja	
+e-ucenje	organizirano u vidu	Moduli ucenja	
+e-ucenje	organizirano u vidu	Tecaji	
+e-ucenje	organizirano u vidu	Objekti ucenja	
+e-ucenje	sadrži	Primjene i procesi	
+e-ucenje	predstavlja	Isporuka sadržaja	
+e-ucenje	koristi	CD-ROM	
+e-ucenje	koristi	DVD	
+e-ucenje	koristi	Internet	
+e-ucenje	koristi	Interaktivna televizija	
+e-ucenje	koristi	Raspoloživi mediji	
+e-ucenje	sadržava	Objekti e-ucenja	
+e-ucenje	se dijeli na	Asinkrono ucenje	
+e-ucenje	sadržava	Okvire e-ucenja	
+e-ucenje	se dijeli na	Sinkrono ucenje	
+Ucionice Licem U Lice	ima podvrstu	Izleti	
+Ucionice Licem U Lice	ima podvrstu	Laboratorij	
+Ucionice Licem U Lice	ima podvrstu	Fizicka Ucionica	
+Flickr	olakšava	Kategorizacija Slika	
+Flickr	olakšava	Pretraživanje Slika	
+Flickr	omogucava	Dodavanje Metapodataka	
+Formalno Ucenje	ima primjer	Škola	
+Formati	mogu biti	Istraživanja	
+Formati	mogu biti	Vježbe na internetu	
+Formati	mogu biti	Mailing liste	
+Formati	mogu biti	Forumi za online diskusije	
+Formati	mogu biti	Web stranice	
+Formati	mogu biti	e-mail	
+Formati	mogu biti	Blogovi	
+Formati	mogu biti	Web dokumenti	
+Formati	mogu biti	Testovi	
+Forum	ima	Sudionike/Akteri	
+Forum	omogucava	Ocjenjivanje Poruka	
+Forum	omogucava	Slanje Poruka	
+Forum	omogucava	Dodavanje Priloga	
+Globalni dogacaj	može biti	Privremeni prekid rada	
+Graficka Datoteka	sadrži	Video	
+Graficka Datoteka	sadrži	Slike	
+Granula znanja	nazivamo	Objekt ucenja	
+Grupni dogacaji	može biti	Predaja radova	
+Individualizirano ucenje	omogucava	Uspješnije obavljanje vježbi i postizanje boljih rezultata	
+Individualizirano ucenje	omogucava	Scenarij ucenja koji istice individualnost (onoliko koliko uceniku treba)	
+Informacijska i komunikacijska tehnologija	sadrži	Informacijska tehnologija	
+Informacijska i komunikacijska tehnologija	sadrži	Komunikacijska tehnologija	
+Informacijska tehnologija	koristi	Racunalo	
+institucija	ukljucuje	servis poucenika	
+institucija	ukljucuje	administrativni poslovi	
+institucija	ukljucuje	akademski poslovi	
+Interaktivna televizija	omogucava	On-line ucenje	
+Interaktivna televizija	omogucava	Individualizirano ucenje	
+Interaktivna televizija	omogucava	Interaktivno ucenje	
+Internet	ima	E-ucenje	
+Internet	ima	Slanje istovremenih poruka	
+Internet	ima	RSS	
+Internet	ima	Virtualna zajednica	
+Internet	ima	VoIP	
+Internet	ima	E-pošta	
+Internet	ima	World Wide Web	
+Internet	ima podvrstu	Intranet	
+Internet	ispunjava	Pet R pravih uvjeta	
+Internet	omogucava	On-line ucenje	
+Internet	omogucava	Individualizirano ucenje	
+Internet	omogucava	Interaktivno ucenje	
+Internet	omogucava	Isporuka sadržaja	
+Internet	ima	Video prikaz	
+Internet	ima	Animacija	
+Internet	služi za	Prikupljanje informacija	
+Internet Obrazovanje	ima	Teoreticar	
+Internet Obrazovanje	se temelji na	Internet	
+Internet Obrazovanje	se temelji na	WWW	
+Intranet	ima podvrstu	Ekstranet	
+Isporuka sadržaja	može biti	Obuka	
+Isporuka sadržaja	može biti	Ucenje	
+Isporuka sadržaja	može biti	Obrazovni program	
+Isprintani dokumenti	se sastoje od	Teksta	
+Izgled	ukljucuje	oblikovanje stranica	
+Izgled	ukljucuje	test upotrebljivosti	
+Izgled	ukljucuje	navigacija	
+Izgled	ukljucuje	oblikovanje sadržaja	
+Izlazna jedinica	može biti	Ekran osjetljiv na dodir	
+Izlazna jedinica	može biti	Zaslon	
+Izlazna jedinica	može biti	Pisac	
+Izlazna jedinica	može biti	Projektor	
+Izlazna jedinica	služi za	Prikaz podakata	
+Izrada Zadatka	sadrži	Opis Zadatka	
+Izrada Zadatka	sadrži	Ocjena Zadatka	
+Izrada Zadatka	sadrži	Naziv Zadatka	
+Jay Cross	je napisao	Origins Of Elearning	
+Jay Cross	naglašava	Neformalno Ucenje	
+Jednosmjerna Komunikacija	usmjerena je ka	Ucenik	
+Jednostavna sintaksa	omogucuje	Jednostavno korištenje	
+Jednostavna sintaksa	omogucuje	Jednostavno modificiranje	
+Jednostavna sintaksa	omogucuje	Jednostavno održavanje	
+Jednostavne aplikacije	su	Aplikacije za snimanje aktivnosti na ekranu	
+Jednostavni Oblici Nastavnog Sadržaja	se sastoji od	Web Dokumenata	
+Jednostavni Oblici Nastavnog Sadržaja	se sastoji od	Mapa	
+Jednostavni Oblici Nastavnog Sadržaja	se sastoji od	Datoteka	
+Jednostavni Oblici Nastavnog Sadržaja	se sastoji od	Linkova	
+Kalendar	sadrži informacije o	Dogacaji	
+Khan	uvodi	Okvire e-ucenja	
+Klasicna Ucionica	ima primjer	Field Trips	
+Klasicna Ucionica	ima primjer	Fizicka Ucionica	
+Klasicna Ucionica	ima primjer	Learning Lab	
+Kolegij	ima primjer	Programiranje1	
+Kolegij	ima primjer	Sustavi E-Ucenja	
+Kolegij	ima primjer	Spa	
+Kolegij	ima primjer	Programiranje2	
+Kompleksne aplikacije	su	Aplikacije koje koriste video klipove	
+Kompleksne aplikacije	su	Aplikacije koje koriste audio naraciju	
+Kompleksne aplikacije	su	Aplikacije simulacija	
+Kompleksne aplikacije	su	Aplikacije koje koriste web animacije	
+Komponenta Za Mjerenje Postignuca	komunicira sa	Stroj Za Testiranje I Procjenu	
+Komponenta Za Mjerenje Postignuca	odvija se u okviru	On-Line Kvizovi	
+Komponenta Za Ostvarivanje Komunikacija Posredstvom Racunala	obavlja se u okviru	Razgovorne Sobe	
+Komponenta Za Ostvarivanje Komunikacija Posredstvom Racunala	obavlja se u okviru	Sustavi Za Razmjenu Elektronske Pošte	
+Komponenta Za Ostvarivanje Komunikacija Posredstvom Racunala	obavlja se u okviru	Diskusijski Forumi	
+Komponenta Za Upravljanje Tecajem	omogucava	Podrška I Osobnost Pristupa Razlicitim Sudionicima	
+Komponenta Za Upravljanje Tecajem	predstavlja	Postignuce Ucenika	
+Komponenta Za Upravljanje Tecajem	predstavlja	Nadzor Ucenika	
+Komponentarno okruženje sustava za e-ucenje	može biti	Pretraživanje sadržaja za ucenje	
+Komponentarno okruženje sustava za e-ucenje	može biti	Razgovorni sustav	
+Komponentarno okruženje sustava za e-ucenje	može biti	Kviz	
+Komponentarno okruženje sustava za e-ucenje	može biti	Multimedija	
+Komponentarno okruženje sustava za e-ucenje	može biti	Elektronska pošta	
+Komponente	ima podvrstu	Komponenta Za Mjerenje Postignuca	
+Komponente	ima podvrstu	Komponentu Za Upravljanje Tecajem	
+Komponente	ima podvrstu	Navigacijski Alati	
+Komponente	ima podvrstu	Komponenta Za Ostvarivanje Komunikacija Posredstvom Racunala	
+Komponente	se dijele na	Online komponente	
+Komponente	se dijele na	Offline komponente	
+Komponente Sustava E-Ucenja	može biti	Kviz Za Provjeru Znanja	
+Komponente Sustava E-Ucenja	može biti	Elektronska Pošta	
+Komponente Sustava E-Ucenja	može biti	Dijeljenje Aplikacija	
+Komponente Sustava E-Ucenja	može biti	Multimedija	
+Komponente Sustava E-Ucenja	može biti	Suradni Alati	
+Komponente Sustava E-Ucenja	može biti	Razgovorni Sustav	
+Komuniciranje	je	Interaktivna Komunikacija	
+Komuniciranje	je	Jednosmjerna Komunikacija	
+Komunikacija	se vrši preko	Forum	
+Komunikacija	se vrši preko	Poruke	
+Komunikacija	se vrši preko	Chat	
+Komunikacija	se vrši preko	kalendar	
+Komunikacija	se vrši preko	RSS	
+Komunikacijska tehnologija	ima podvrstu	VPN	
+Komunikacijska tehnologija	ima podvrstu	LAN	
+Komunikacijska tehnologija	ima podvrstu	WAN	
+Komunikacijska tehnologija	ima podvrstu	Internet	
+Komunikacijska tehnologija	ima podvrstu	WLAN	
+Komunikacijska tehnologija	služi za	Prijenos informacija	
+Komunikacijski I Kolaborativni Alati	omogucavaju urecivanje	Forum	
+Komunikacijski I Kolaborativni Alati	omogucavaju korištenje	Chat	
+Komunikacijski I Kolaborativni Alati	omogucavaju postavljanje	Pitanje	
+Korisnicka dogacanja	može biti	Napomena za ucenje	
+Korisnicko Sucelje	sadrži	Moodle Blokovi	
+Korisnicko Sucelje	sadrži	Gumb Za Izmjene	
+Korisnicko Sucelje	sadrži	Navigacijska Traka	
+Korisnicko Sucelje	sadrži	Zaglavlje	
+Korisnicko Sucelje	predstavlja	Izgled	
+Kretanje	se odvija unutar	Nastavni Sadržaj	
+Kvizovi	se sastoje od	Pitanja	
+LCMS	sadržava	Moodle	
+LCMS	koristi	Repozitorij podataka	
+Lectora	se nalazi na	WWW	
+Leinonen	je podijelio	Razvoj E-Ucenja	
+Linkovi	povezuju	Web Stranice	
+Linkovi	povezuju	Web Dokumenata	
+Lista Nastavnika	omogucava	Dodavanje Nastavnika	
+Lista Polaznika	omogucava	Dodavanje Studenata	
+Litmos	je	Lms	
+Litmos	se nalazi na	WWW	
+Live Online	ima podvrstu	Virtualna Ucionica	
+Live Online	ima podvrstu	Webinar	
+LMS paketi	omogucuju 	Pracenje ocjenjivanja	
+LMS paketi	omogucuju	Komunikacija	
+LMS paketi	isporucuju	Obrazovni sadržaj	
+Logo	otvara	Prostor Za Rješavanje Problema	
+Loše strane	su	Nema mogucnosti za direktna pitanja	
+Loše strane	su	Sadržaj je relativno statican	
+Mapa	sadrži	Datoteka	
+Memorija	može biti	Radna memorija	
+Memorija	može biti	Trajna memorija	
+Mobile & Wireless Learning Tools	ima podvrstu	Personal Media Players	
+Mobile & Wireless Learning Tools	ima podvrstu	Smart Phone	
+Mobile & Wireless Learning Tools	ima podvrstu	Tablet Pc	
+Mobitel	omogucava	Ostvarivanje obrazovanja	
+Mobitel	omogucava	Pristup nastavnom sadržaju za e-ucenje	
+Model Funkcionalnosti	se sastoji od	Rukovoditelj Profila Ucenika	
+Model Funkcionalnosti	se sastoji od	Arhivar Ucenika	
+Model Funkcionalnosti	se sastoji od	Spremišta Sadržaja I Katalozi Ponude	
+Model Funkcionalnosti	se sastoji od	Okruženje Isporuke Nastavnih Sadržaja	
+Model Funkcionalnosti	se sastoji od	Alati Za Oblikovanje Sadržaja	
+Model Funkcionalnosti	se sastoji od	Planer Ucenja	
+Model Funkcionalnosti	se sastoji od	Alati Za Prikupljanje Sadržaja	
+Model Funkcionalnosti	se sastoji od	Okruženje Za Suradnju	
+Model Funkcionalnosti	se sastoji od	Rukovoditelj Kataloga	
+Modificiranje Sadržaja	koristi	Jednostavna Sintaksa	
+Modul	omogucava	Ucenje	
+Moodle	nudi	Zadace I Provjere Znanja	
+Moodle	omogucava	Upravljanje Kolegijem	
+Moodle	omogucava	Urecivanje Kolegija I Nastavnog Plana	
+Moodle	omogucava	Rad S Nastavnim Materijalima	
+Moodle	omogucava	Ocjenjivanje	
+Moodle	pruža	Komunikacijski I Kolaborativni Alati	
+Moodle	sadrži	Resurse	
+Moodle	sadrži	Kolegij	
+Moodle	sadrži	Sudionike/Aktori	
+Moodle	ima	Aktivnosti	
+Mreža	omogucava	Isporuka sadržaja	
+Mrežna Platforma	ima podvrstu	Blog	
+Mrežna Platforma	ima podvrstu	Društvena Mreža	
+Mrežna Platforma	ima podvrstu	Društvena Oznaka	
+Mrežna Platforma	ima podvrstu	RSS	
+Mrežna Platforma	ima podvrstu	Wiki	
+Mrežne Platforme	služi za	Raspodjela Sadržaja	
+Multimedija	ukljucuje	Audio trake	
+Multimedija	ukljucuje	Video trake	
+Multimedija	ukljucuje	Interaktivna TV	
+Multimedija	omogucava	Isporuka sadržaja	
+Multimedijalni Sadržaji	može biti	Audio Zapis	
+Multimedijalni Sadržaji	može biti	Video Zapis	
+Multimedijalni Sadržaji	može biti	Simulacije	
+Multimedijalni Sadržaji	može biti	Graficki Zapisi	
+Multimedijalni Sadržaji	može biti	Animacije	
+Multimedijalni Sadržaji	može biti	Tekstualni	
+Multimedijalni Sadržaji	može biti	Fotografija	
+Multimedijska Tehnologija	ima podvrstu	CD-ROM	
+Multimedijska Tehnologija	ima podvrstu	DVD	
+Multimedijska Tehnologija	ima podvrstu	Live Streaming	
+Multimedijska Tehnologija	ima podvrstu	Podcasting Tehnologija	
+Multimedijska Tehnologija	ima podvrstu	Video Streaming	
+Multimedijska Tehnologija	ima podvrstu	Voip	
+Naplativi Alati	ima primjer	Adobe Captive	
+Naplativi Alati	ima primjer	Articulate Presenter	
+Nastava	se održava kao	Nastava U Ucionici	
+Nastava	se održava kao	Online Nastava	
+Nastavni Sadržaj	dijeli se na	Uvodni Dio	
+Nastavni Sadržaj	dijeli se na	Primjere I Procjene	
+Nastavni Sadržaj	dijeli se na	Objašnjenja	
+Nastavni Sadržaj	je	Skladan I Efikasan Modul Ucenja	
+Nastavni Sadržaj	se sastoji od	Alata	
+Nastavni Sadržaj	se sastoji od	Prezentacija	
+Nastavni Sadržaj	se sastoji od	Eksperimenata	
+Nastavni Sadržaj	se sastoji od	Programske Aplikacije	
+Nastavni Sadržaj	se sastoji od	Tutora	
+Nastavni Sadržaj	se sastoji od	Osoba	
+Nastavni Sadržaj	se sastoji od	Vodica	
+Nastavni Sadržaj	se sastoji od	Knjiga	
+Nastavni Sadržaj	kreiramo pomocu	Okruženja za izradu nastavnih sadržaja	
+Navigacija Po Sadržaju	je pod nadzorom	Ucitelj	
+Navigacija Po Sadržaju	je pod nadzorom	Ucenik	
+Navigacija Po Sadržaju	je pod nadzorom	Sustav	
+Navigacijski Alati	omogucava	Kretanje	
+Navigacijski Alati	omogucava	Organizacija	
+Ne-digitalni oblik	sadržava	Tekst	
+Ne-digitalni oblik	sadržava	Ciljevi ucenja	
+Ne-digitalni oblik	sadržava	Simulacija	
+Nedostatak Sinkronog Nacina Isporuke E-Ucenja	je	Cijena	
+Nedostatak Sinkronog Nacina Isporuke E-Ucenja	je	Povecano Radno Opterecenje	
+Nedostatak Sinkronog Nacina Isporuke E-Ucenja	je	Problem Vezan Uz Korištenje Tehnologije	
+Nedostatak Sinkronog Nacina Isporuke E-Ucenja	je	Problem Vezan Uz Tehnicku Podršku	
+Neformalno Ucenje	ima primjer	Izvan Škole	
+Nenaplativi Alati	ima primjer	Wink	
+Nenaplativi Alati	ima primjer	What2Learn	
+Nova Napredna Nastavna Paradigma	donosi	Svjetski Priznata Diploma	
+Nova Napredna Nastavna Paradigma	gleda postignuto pri	Ocjenjivanje	
+Nova Napredna Nastavna Paradigma	ima	Fleksibilni Sadržaj	
+Nova Napredna Nastavna Paradigma	ima	Prakticni Sadržaj	
+Nova Napredna Nastavna Paradigma	ima	Nastavnik Kao Vodic	
+Nova Napredna Nastavna Paradigma	ima	Interaktivnu Komunikaciju	
+Nova Napredna Nastavna Paradigma	orijentira se na	Ucenje	
+Nova Napredna Nastavna Paradigma	sadrži	Znanje Prema Potrebi	
+Nova Napredna Nastavna Paradigma	sadrži	Znanje Prilagoceno Vremenu	
+Nova Napredna Nastavna Paradigma	sadrži	Usmjereno Obrazovanje	
+Nova Napredna Nastavna Paradigma	sadrži	Aktivno Ucenje	
+Nova Napredna Nastavna Paradigma	se bazira na	Grupno Ucenje	
+Nova Napredna Nastavna Paradigma	se sastoji od	Online Nastava	
+Nova Tehnologija	omogucava	Ucenje	
+Numericko ocjenjivanje	se vrši nad	Anketa	
+Numericko ocjenjivanje	se vrši nad	Zadaca	
+Numericko ocjenjivanje	se vrši nad	Test	
+Objekt ucenja	može biti	Multimedija	
+Objekt ucenja	može biti	Razgovorni sustav	
+Objekt ucenja	može biti	Nastavni sadržaj	
+Objekt ucenja	sadrži	Printane materijale	
+Objekt ucenja	sadrži	Web	
+Objekt ucenja	sadrži	CD-ROM	
+Objekti e-ucenja	se definira kao	Skup informacija	
+Objekti e-ucenja	je potrebno	Organizirati	
+Objekti e-ucenja	se izgracuje preko	ADL model	
+Objekti e-ucenja	treba biti	Interoperabilan	
+Objekti e-ucenja	treba biti	Dostupan	
+Objekti e-ucenja	se izgracuje preko	AICC model	
+Objekti e-ucenja	koristimo u	Okruženja za izradu nastavnih sadržaja	
+Objekti e-ucenja	se definira kao	Entitet	
+Objekti e-ucenja	je potrebno	Spremiti	
+Objekti e-ucenja	treba biti	Trajan	
+Objekti Nastavnog Sadržaja	može biti	Multimedijalni Sadržaji	
+Oblik Kolegija	može biti	Tjedni Oblik	
+Oblik Kolegija	može biti	Tematski Oblik	
+Oblik Kolegija	može biti	Socijalni Oblik	
+Oblikovanje I Urecivanje On-Line Kvizova	obuhvaca	Pitanja	
+Oblikovanje sadržaja za ucenje	je strukturirano u formi	Granula znanja	
+Oblikovanje sadržaja za ucenje	sadrži	Video zapis	
+Oblikovanje sadržaja za ucenje	sadrži	Graficki zapis	
+Oblikovanje sadržaja za ucenje	sadrži	Audio zapis	
+Oblikovanje sadržaja za ucenje	sadrži	Fotografija	
+Oblikovanje sadržaja za ucenje	sadrži	Tekst	
+Oblikovanje sadržaja za ucenje	sadrži	Simulacija	
+Oblikovanje sadržaja za ucenje	sadrži	Animacija	
+Obrada podataka	sadrži	Upravljanje podataka	
+Obrada podataka	sadrži	Pohrana podataka	
+Obrazovanje	dostupno svima u	Nova Napredna Nastavna Paradigma	
+Obrazovanje	je	Usmjereno Obrazovanje	
+Obrazovanje	je	Opce Obrazovanje	
+Obrazovanje	nije dostupno svima u	Tradicionalna Nastavna Paradigma	
+Obrazovanje	je temeljeno na	Internet	
+Obrazovanje	je temeljeno na	Racunalo s multimedijom	
+Obrazovanje	je viši pojam od	Poucavanje	
+Obrazovanje	je viši pojam od	Ucenje	
+Obrazovni Sadržaj	služi za	Ucenike	
+Ocjenjivanje	obuhvaca	Pregled Ocjena	
+Ocjenjivanje	omogucava korištenje	Skala Ocjenjivanja	
+Ocjenjivanje	se dijeli na	Numericko ocjenjivanje	
+Ocjenjivanje	se dijeli na	Opisno ocjenjivanje	
+Offline komponente	se sastoje od	Grafike	
+Offline komponente	obuhvacaju	Isprintani dokumenti	
+Offline komponente	obuhvacaju	Vježbe na racunalu	
+Okruženja za izradu nastavnih sadržaja	sadržava	LCMS	
+Okruženje	omogucava	Promjena Osobnih Podataka	
+Okruženje	omogucava	Pomoc Korisnicima	
+Okruženje	omogucava	Upravljanje Blokovima	
+Okruženje	omogucava	Prijava Na Sustav	
+Okruženje	sadrži	Korisnicko Sucelje	
+Okruženje Isporuke Nastavnih Sadržaja	ima podvrstu	ASinkroni Nacin Isporuke Isporuke	
+Okruženje Isporuke Nastavnih Sadržaja	ima podvrstu	Sinkroni Nacin Isporuke Isporuke	
+Okruženje Isporuke Nastavnih Sadržaja	komunicira sa	Stroj Za Testiranje I Procjenu	
+Okruženje Isporuke Nastavnih Sadržaja	komunicira sa	Okruženje Za Suradnju	
+Okruženje Isporuke Nastavnih Sadržaja	komunicira sa	Arhivar Ucenika	
+Okruženje Isporuke Nastavnih Sadržaja	komunicira sa	Rukovoditelj Profila Ucenika	
+Okruženje Isporuke Nastavnih Sadržaja	komunicira sa	Planer Ucenja	
+Okruženje Isporuke Nastavnih Sadržaja	omogucava	Navigacija Po Sadržaju	
+Okruženje Isporuke Nastavnih Sadržaja	omogucava pristup	Nastavni Sadržaj	
+Okruženje Isporuke Nastavnih Sadržaja	omogucava pristup	Komponente Sustava E-Ucenja	
+Okruženje Isporuke Nastavnih Sadržaja	ostvaruje se na	Sinkroni Nacin Isporuke	
+Okruženje Isporuke Nastavnih Sadržaja	ostvaruje se na	ASinkroni Nacin Isporuke	
+Okruženje Za Suradnju	ima primjer	Virtualna Ucionica Ucionica	
+Okviri e-ucenja	se sastoje od	dimenzije	
+Online komponente	mogu biti	Online predavanja	
+Online komponente	mogu biti	Dokumenti u PDF formatu	
+Online komponente	Obuhvacaju razlicite	Formati	
+Online komponente	mogu biti	Web aplikacije	
+On-Line Kvizovi	daje	Ocjenu	
+On-Line Kvizovi	ima primjer	Pitanja Postavljena Temeljem Slucajnog Izbora	
+On-Line Kvizovi	ima primjer	Pitanja Sastavljena Po Predlošcima	
+On-line podrška	naglašava znacaj	suvislo okruženje	
+On-line podrška	potice	interaktivnost	
+Online predavanja	se sastoje od	Grafike	
+Online predavanja	se sastoje od	Dodatni materijali	
+Online predavanja	se sastoje od	Teksta	
+On-Line Ucenje	oznacava	Upotreba Mrežne Tehnologije	
+On-Line Ucenje	je	Ucenje na daljinu	
+Opce Obrazovanje	donosi	Opce Znanje	
+Opisno ocjenjivanje	se vrši nad	Diskusija	
+Organizirati	koristeci	Repozitorij podataka	
+Osnovne vrste objekata	se dijeli na	Ocjenjivanje	
+Osnovne vrste objekata	se dijeli na	Suradnja	
+Osnovne vrste objekata	se dijeli na	Komunikacija	
+Osnovne vrste objekata	se dijeli na	Spremanje	
+Osnovni Element Strukture Sustava E-Ucenja	su	Autorski Alati	
+Osnovni Element Strukture Sustava E-Ucenja	su	Navigacijski Alati	
+Osnovni Element Strukture Sustava E-Ucenja	su	Komponenta Za Upravljanje Tecajem	
+Osnovni Element Strukture Sustava E-Ucenja	su	Komponenta Za Mjerenje Postignuca	
+Osnovni Element Strukture Sustava E-Ucenja	su	Komponenta Za Ostvarivanje Komunikacija Posredstvom Racunala	
+Osnovni sadržaj lekcije	služi za izradu	Nastavni Sadržaj	
+Osoba	može biti	Ucitelj	
+Ostali Oblici Nastavnog Sadržaja	se sastoji od	Prezentacija	
+Ostali Oblici Nastavnog Sadržaja	se sastoji od	Knjiga	
+Ostali Oblici Nastavnog Sadržaja	se sastoji od	Eksperimenata	
+Ostali Oblici Nastavnog Sadržaja	se sastoji od	Alata	
+Ostali Oblici Nastavnog Sadržaja	se sastoji od	Vodica	
+Ostali Oblici Nastavnog Sadržaja	se sastoji od	Programske Aplikacije	
+Ostali Oblici Nastavnog Sadržaja	se sastoji od	Tutora	
+Ostali Oblici Nastavnog Sadržaja	se sastoji od	Osoba	
+Oznake	dodajemo na	Obrazovni sadržaj	
+Oznake	omogucuju	Pretraga	
+Oznake	omogucuju	Kategorizacija	
+Oznake	nude	Objašnjenje	
+PDA	omogucava	Pristup nastavnom sadržaju za e-ucenje	
+PDA	omogucava	Digitalno ucenje	
+PDA	omogucava	Ostvarivanje obrazovanja	
+pedagogija	usmjerena k	analiza medija	
+pedagogija	usmjerena k	analiza sadržaja	
+pedagogija	ima vezu s	ucenje i poucavanje	
+pedagogija	usmjerena k	analiza cilja	
+Personal Media Players	ima primjer	Ipod-Mp3 Audio	
+Personal Media Players	ima primjer	Video Ipod	
+Pet R pravih uvjeta	sadrži	Isporucenost na pravo mjesto	
+Pet R pravih uvjeta	sadrži	Pravi nacin	
+Pet R pravih uvjeta	sadrži	Pravo vrijeme	
+Pet R pravih uvjeta	sadrži	Pravi posao	
+Pet R pravih uvjeta	sadrži	Prave vještine	
+Phone Konferencija	koristi	Multimedijska Tehnologija	
+Phone Konferencija	odvija se preko 	Voip	
+Phone Konferencija	odvija se u	Realno Vrijeme	
+Pitanja	se postavljaju	Slucajnim Izborom	
+Pitanja	zahtijevaju	Odgovor S Višestrukim Izborom	
+Pitanja	zahtijevaju	Odgovor Sa Da Ili Ne	
+Pitanja	zahtijevaju	Odgovor S Popunjavanjem Nedostajucih Rijeci	
+Plan tecaja	može biti	Ponuda razlicitih struktura ucenicima	
+Plan tecaja	može biti	Plan ucenja	
+Podcasting Tehnologija	se koristi kod	Personal Media Players	
+Podrška I Osobnost Pristupa Razlicitim Sudionicima	odnosi se na	Ucenik	
+Podrška I Osobnost Pristupa Razlicitim Sudionicima	odnosi se na	Ucitelje	
+Ponovno upotrebljivi objekt ucenja	je	Sadržajna komponenta	
+Posebni Programi	omogucavaju citanje	Internet Stranice	
+Posebni Programi	omogucavaju citanje	Obavijesti	
+poslovanje	raspodjeljuje	bitne informacije	
+poslovanje	održava	okruženje	
+Pospremanje sadržaja za ucenje	je strukturirano u formi	Granula znanja	
+Postavke Kolegija	sadrži	Naziv I Kraticu Kolegija	
+Postavke Kolegija	sadrži	Kategoriju Kolegija	
+Postavke Kolegija	sadrži	Opis Kolegija	
+Postojece Sadržaje	mogu se	Ponovno Upotrijebiti	
+Poucavanje	ima podvrstu	Mentorstvo	
+Poucavanje	ima podvrstu	Poducavanje	
+Poucavanje	se temelji na	Tradicionalno Nacelo Ucenja	
+Poucavanje	omogucava	Ucenje na svakom mjestu	
+Poucavanje	omogucava	Scenarij ucenja koji istice individualnost	
+Poucavanje	omogucava	Ucenje u svako vrijeme	
+Poveznica	se dodaje na	Datoteka	
+Poveznica	se dodaje na	Web stranica	
+Prakticni Sadržaj	daje	Znanje Prema Potrebi	
+Predložak	može se temeljiti na	Prezentaciji	
+Predložak	može se temeljiti na	Strukturi	
+Predložak	može se temeljiti na	Metoda Za Oblikovanje Nastave	
+Predložak	može se temeljiti na	Nastavni Sadržaj	
+Prednost Sinkronog Nacina Isporuke E-Ucenja	je	Mogucnost Evidentiranja	
+Prednost Sinkronog Nacina Isporuke E-Ucenja	je	Mogucnost Globalnog Povezivanja	
+Prednost Sinkronog Nacina Isporuke E-Ucenja	je	Mogucnost Kontinuiranog Nadgledanja	
+Prednost Sinkronog Nacina Isporuke E-Ucenja	je	Mogucnost Otklanjanja Pogreške	
+Prednost Sinkronog Nacina Isporuke E-Ucenja	je	Mogucnost Prilagocavanja Tecaja	
+Prednost Sinkronog Nacina Isporuke E-Ucenja	je	Mogucnost Suradnje Mecu Polaznicima	
+Prednost Sinkronog Nacina Isporuke E-Ucenja	je	Mogucost Pracenja Nastave	
+Pregled Korisnika	sadrži	Popis Korisnika	
+Pregled Ocjena	se može vršiti	Po Skupinama	
+Pregled Ocjena	se može vršiti	Pojedinacno	
+Pretraživanje sadržaja za ucenje	je strukturirano u formi	Granula znanja	
+Prijava Na Sustav	zahtijeva	Lozinka	
+Prijava Na Sustav	zahtijeva	Korisnicko Ime	
+Prikljucak	može biti	Paralelni prikljucak	
+Prikljucak	može biti	USB prikljucak	
+Prikljucak	može biti	Serijski prikljucak	
+Prikupljanje i upotreba znanja	ovisi o	Racunala	
+Prikupljanje i upotreba znanja	ovisi o	Mreže	
+Prikupljanje sadržaja za ucenje	je strukturirano u formi	Granula znanja	
+Prikupljanje Zadaca	se može vršiti 	Link Na Zadace	
+Primjena Icta U Ucenju I Poucavanju	omogucava	Ucenje Bilo Gdje	
+Primjena Icta U Ucenju I Poucavanju	omogucava	Ucenje Bilo Kad	
+Primjene i procesi	može biti	Ucenje temeljeno na Webu	
+Primjene i procesi	može biti	Prividni razredi	
+Primjene i procesi	može biti	Digitalno suracivanje	
+Primjene i procesi	može biti	Ucenje temeljeno na racunalu	
+Primjene i procesi	može biti	Digitalno ucenje	
+Prividna Ucionica	omogucava	Daljinsko Ucenje	
+procjenjivanje	ukljucuje	ucenik	
+procjenjivanje	ukljucuje	okruženje	
+procjenjivanje	ukljucuje	nastava	
+Profesori	oblikuju	Osnovne vrste objekata	
+Profil	sadrži	Aktivnosti Ucenika	
+Profil	sadrži	Status O Ponucenom Sadržaju	
+Profil ucenika	ima	Osobni podaci	
+Profil ucenika	ima	Plan ucenja	
+Profil ucenika	ima	Status u participaciji aktivnog ucenja	
+Profil ucenika	ima	Povijest ucenja	
+Profil ucenika	ima	Procjene o postignutom znanju	
+Programiranje	primjenjuje	Ponavljanje	
+Programiranje	primjenjuje	Vježbanje	
+Programiranje1	se sastoji od	Resurse	
+Programiranje2	se sastoji od	Resurse	
+Programska Aplikacija	koja se može isporuciti na	Compact Disc	
+Programska Aplikacija	koja se može isporuciti na	WWW	
+Programska Aplikacija	oblikuje	Multimedijalni Sadržaji	
+Programska Aplikacija	stvara 	Multimedijalni Sadržaji	
+Programska podrška	ima podvrstu	Operativni sustav	
+Programska podrška	ima podvrstu	Aplikacijski softver	
+Promjena Osobnih Podataka	sadrži	Profil Korisnika	
+Racunalna Mreža	ima primjer	Internet	
+Racunalna Mreža	ima primjer	Intranet	
+Racunalo	omogucava	Isporuka sadržaja	
+Racunalo	omogucava	Digitalno ucenje	
+Racunalo	omogucava	Pristup nastavnom sadržaju za e-ucenje	
+Racunalo	omogucava	Ostvarivanje obrazovanja	
+Racunalo	sadrži	Sklopovlje	
+Racunalo	sadrži	Programska podrška	
+Racunalo	služi za	Obrada informacija	
+Racunalo	služi za	Zaštita informacija	
+Racunalo	služi za	Prijenos informacija	
+Racunalo	služi za	Pohrana informacija	
+Racunalo	služi za	Prikupljanje informacija	
+Racunalo s multimedijom	ima	Animacija	
+Racunalo s multimedijom	ima	Video prikaz	
+Rad S Nastavnim Materijalima	omogucava	Izrada Lekcija	
+Rad S Nastavnim Materijalima	omogucava	Dodavanje Resursa	
+Radna memorija	služi za	Upravljanje podataka	
+Rapid Intake	je dio od	Litmos	
+Raspoloživi mediji	može biti	Internet	
+Raspoloživi mediji	može biti	Mreže	
+Raspoloživi mediji	može biti	CD 	
+Raspoloživi mediji	može biti	DVD	
+Raspoloživi mediji	može biti	Racunala	
+Raspoloživi mediji	može biti	Multimedija	
+Razgovorne Sobe	ima	Sudionike/Akteri	
+Razliciti Nazivi	se dijeli na	Vježbanje Utemeljeno Na Internetu	
+Razliciti Nazivi	se dijeli na	Web Utemeljena Nastava	
+Razliciti Nazivi	se dijeli na	Web Utemeljeno Ucenje	
+Razliciti Nazivi	se dijeli na	Web Utemeljeno Vježbanje	
+Razliciti primjeri	služe za izradu	Nastavni Sadržaj	
+Razvoj E-Ucenja	se dijeli na	Društvene Programske Podrške	
+Razvoj E-Ucenja	se dijeli na	E-Ucenje	
+Razvoj E-Ucenja	se dijeli na	Internet Obrazovanje	
+Razvoj E-Ucenja	se dijeli na	Obrazovanje Racunalima	
+Razvoj E-Ucenja	se dijeli na	Programiranje	
+Repozitorij podataka	sadržava	Careo	
+Repozitorij podataka	sadržava	Cloe	
+Repozitorij podataka	sadržava	Merlot	
+Repozitorij podataka	sadržava	Educanext	
+Resurse	cini	Obrazovni Sadržaj	
+Resurse	dijeli se na	Vremenske Resurse Ucenja	
+Resurse	može biti	Jednostavni Oblici Nastavnog Sadržaja	
+Resurse	može biti	Ostali Oblici Nastavnog Sadržaja	
+RSS	se služi	Posebni Programi	
+RSS	omogucuje pracenje	Sažete obavijesti	
+RSS	koristi	Posebni programi	
+Rukovoditelj	upravlja	Profil ucenika	
+Rukovoditelj	upravlja	Plan tecaja	
+Sadržaj	je	cvrsto Odrecen Sadržaj	
+Sadržaj	je	Prakticni Sadržaj	
+Sadržaj	je	Fleksibilni Sadržaj	
+Sadržaj	je	Teorijski Sadržaj	
+Sadržajno spremište	pohranjuje	Objekt ucenja	
+Sažete obavijesti	su dio	Web stranica	
+Sinkroni Nacin Isporuke Isporuke	ima primjer	Whiteboard	
+Sinkroni Nacin Isporuke Isporuke	ima primjer	Audio Ili Video Konferencija	
+Sinkroni Nacin Isporuke Isporuke	ima primjer	Virtualna Ucionica Ucionica	
+Sinkroni Nacin Isporuke Isporuke	može biti	Videokonferencija	
+Sinkroni Nacin Isporuke Isporuke	može biti	Audio Konferencija S Prezentacijskim Materijalima	
+Sinkroni Nacin Isporuke Isporuke	može biti	Prividna Ucionica	
+Sinkroni Nacin Isporuke Isporuke	može biti	On-Line Tekstualna Komunikacija	
+Sinkroni Nacin Isporuke Isporuke	odvija se izmecu	Sudionika U Obrazovnom Sustavu	
+Sinkroni Nacin Isporuke Isporuke	omogucava	Aktivnost Korisnika U Isto Vrijeme	
+Sinkroni Nacin Isporuke Isporuke	ima	Nedostatak Sinkronog Nacina Isporuke E-Ucenja	
+Sinkroni Nacin Isporuke Isporuke	ima	Prednost Sinkronog Nacina Isporuke E-Ucenja	
+Sinkroni Nacin Isporuke Isporuke	odvija se	Na Unaprijed Dogovorenom Mjestu	
+Sinkroni Nacin Isporuke Isporuke	odvija se	Po Unaprijed Dogovorenom Scenariju	
+Sinkroni Nacin Isporuke Isporuke	podrazumijeva	Interakciju	
+Sinkroni Nacin Isporuke Isporuke	se sastoji od	Kolaboracija & Zajednica	
+Sinkroni Nacin Isporuke Isporuke	se sastoji od	Ucionice Licem U Lice	
+Sinkroni Nacin Isporuke Isporuke	se sastoji od	Uživo Na Internetu	
+Sinkroni Nacin Isporuke Isporuke	se sastoji od	Poucavanje	
+Sinkrono  E-Ucenje	ima primjer	Chat	
+Sinkrono  E-Ucenje	ima primjer	Instant Messaging	
+Sinkrono  E-Ucenje	odvija se u	Realno Vrijeme	
+Sinkrono ucenje	se odvija uvijek u isto	Vrijeme	
+Sinkrono ucenje	se odvija u razlicitom	Mjesto	
+Sistemska jedinica	sadrži	Maticna ploca	
+Sistemska jedinica	sadrži	Graficka kartica	
+Sistemska jedinica	sadrži	Memorija	
+Sistemska jedinica	sadrži	Procesor	
+Sistemska jedinica	sadrži	Prikljucak	
+Skala Ocjenjivanja	sadrži	Opisne Ocjene	
+Sklopovlje	sadrži	Izlazna jedinica	
+Sklopovlje	sadrži	Sistemska jedinica	
+Sklopovlje	sadrži	Ulazna jedinica	
+Skup informacija	je upotrebljiv u	Osnovni sadržaj lekcije	
+Skup informacija	se kombinira na	Razlicite nacine	
+Skup informacija	je upotrebljiv u	Razliciti primjeri	
+Slanje istovremenih poruka	može biti	Skype	
+Slanje istovremenih poruka	može biti	Google Talk	
+Spa	se sastoji od	Resurse	
+Spremanje	vršimo nad	Datoteka	
+Spremanje	vršimo nad	Direktorij	
+Spremanje	vršimo nad	LMS paketi	
+Spremanje	vršimo nad	Web stranica	
+Spremanje	vršimo nad	Oznake	
+Spremanje	vršimo nad	Poveznica	
+Spremanje	vršimo nad	Baza podataka	
+Spremišta Sadržaja I Katalozi Ponude	komunicira sa	Alati Za Prikupljanje Sadržaja	
+Spremišta Sadržaja I Katalozi Ponude	komunicira sa	Rukovoditelj Kataloga	
+Spremišta Sadržaja I Katalozi Ponude	komunicira sa	Alati Za Oblikovanje Sadržaja	
+Strucnjak Podrucnog Znanja	mijenjaju	Objekti Nastavnog Sadržaja	
+Strucnjak Podrucnog Znanja	oblikuju	Bazu Znanja	
+Strucnjak Podrucnog Znanja	stvara	Objekti Nastavnog Sadržaja	
+Sudionici U Obrazovnom Sustavu	može biti	Ucitelj	
+Sudionici U Obrazovnom Sustavu	može biti	Korisnici Aktivni U Isto Vrijeme	
+Sudionici U Obrazovnom Sustavu	može biti	Korisnici Aktivni U Razlicito Vrijeme	
+Sudionici U Obrazovnom Sustavu	može biti	Ucenik	
+Sudionike/Akteri	dijeli se na	Goste	
+Sudionike/Akteri	dijeli se na	Ucenike	
+Sudionike/Akteri	dijeli se na	Administratore	
+Sudionike/Akteri	dijeli se na	Ucitelj	
+Suradnja	se odvija preko	Forum	
+Suradnja	se odvija preko	Radionica	
+Suradnja	se odvija preko	Blog	
+Suradnja	se odvija preko	Društvene mreže	
+Suradnja	se odvija preko	Wiki	
+Sustav za isporuku sadržaja	omogucava	Pristup komponentarnim okruženjima sustava za e-ucenje	
+Sustav za isporuku sadržaja	omogucava	Pristup nastavnom sadržaju	
+Sustav Za Upravljanje E-Ucenjem	ima podvrstu	Asinkroni Sustav E-Ucenja	
+Sustav Za Upravljanje E-Ucenjem	ima podvrstu	Sinkroni Sustav E-Ucenja	
+Sustav Za Upravljanje E-Ucenjem	je	Aplikacija	
+Sustav Za Upravljanje E-Ucenjem	se sastoji od	Komponente	
+Sustav za upravljanje sadržajem (CMS)	ima	Ponovno upotrebljivi objekt ucenja (RLO)	
+Sustav za upravljanje sadržajem ucenja ( LCMS )	ima	Sustav za upravljanje sadržajem (CMS)	
+Sustav za upravljanje sadržajem ucenja ( LCMS )	ima	Sustav za upravljanje ucenjem (LMS)	
+Sustav za upravljanje sadržajem ucenja ( LCMS )	sadrži	Sadržajno spremište	
+Sustav za upravljanje sadržajem ucenja ( LCMS )	sadrži	Alat	
+Sustav za upravljanje sadržajem ucenja ( LCMS )	sadrži	Autorki alat	
+Sustav za upravljanje sadržajem ucenja ( LCMS )	sadrži	Sustav za isporuku sadržaja	
+Sustav za upravljanje sadržajem ucenja ( LCMS )	sadrži	Rukovoditelj	
+Sustavi E-Ucenja	se sastoji od	Resurse	
+Sustavi Za Razmjenu Elektronske Pošte	omogucava	Korištenje Kolaboracijskih Servisa	
+Sustavi Za Razmjenu Elektronske Pošte	omogucava	Sinkronizacija	
+tehnologija	odnosi se na	tehnološka infrastruktura	
+Tehnologije Za Isporuku Nastavnih Sadržaja	se dijeli na	Distance Learning Tehnologija	
+Tehnologije Za Isporuku Nastavnih Sadržaja	se dijeli na	E-Ucenje	
+Tehnologije Za Isporuku Nastavnih Sadržaja	se dijeli na	Mobile & Wireless Learning Tools	
+Tehnologije Za Isporuku Nastavnih Sadržaja	se dijeli na	Multimedijska Tehnologija	
+Tehnologije Za Isporuku Nastavnih Sadržaja	se dijeli na	Ucionica	
+tehnološka infrastruktura	ukljucuje	tehnicka podrška	
+tehnološka infrastruktura	ukljucuje	planiranje infrastrukture	
+tehnološka infrastruktura	ukljucuje	programska podrška	
+Tekstualna Datoteka	sadrži	Ime	
+Tekstualna Datoteka	sadrži	Tekst	
+Tekstualna Datoteka	sadrži	Sažetak	
+Temeljna funkcija racunala	može biti	Obrada podataka	
+Temeljna funkcija racunala	može biti	Prikaz podakata	
+Temeljna funkcija racunala	može biti	Unos podataka	
+Temeljna Funkcionalnost Sustava E-Ucenja	je	Administriranje Sudionika	
+Temeljna Funkcionalnost Sustava E-Ucenja	je	Poucavanje	
+Temeljna Funkcionalnost Sustava E-Ucenja	je	Testiranje	
+Temeljna Funkcionalnost Sustava E-Ucenja	je	Ucenje	
+Temeljna Funkcionalnost Sustava E-Ucenja	je	Vrednovanje Znanja	
+Temeljni Sudionik Sustava E-Ucenja	ima podvrstu	Administrator Sustava	
+Temeljni Sudionik Sustava E-Ucenja	ima podvrstu	Strucnjak Podrucnog Znanja	
+Temeljni Sudionik Sustava E-Ucenja	ima podvrstu	Ucenik	
+Temeljni Sudionik Sustava E-Ucenja	ima podvrstu	Ucitelj	
+Teoreticar	je	Hu	
+Teoreticar	je	Khan	
+Teoreticar	je	Lancester	
+Teoreticar	je	Tim Berners-Lee	
+Teorijski Sadržaj	daje	Opce Znanje	
+Testiranje Znanja Ucenika	ima podvrstu	On-Line Kviz	
+Testiranje Znanja Ucenika	se temelji na	Tradicionalno Nacelo Ucenja	
+Tim Berners-Lee	predstavlja	Projekt WWW	
+Tradicionalna Nastavna Paradigma	donosi	Nacionalno Priznata Diploma	
+Tradicionalna Nastavna Paradigma	gleda greške pri	Ocjenjivanje	
+Tradicionalna Nastavna Paradigma	ima	cvrsto Odrecen Sadržaj	
+Tradicionalna Nastavna Paradigma	ima	Jednosmjerna Komunikacija	
+Tradicionalna Nastavna Paradigma	ima	Nastavnik U Glavnoj Ulozi	
+Tradicionalna Nastavna Paradigma	ima	Teorijski Sadržaj	
+Tradicionalna Nastavna Paradigma	orijentira se na	Nastava	
+Tradicionalna Nastavna Paradigma	sadrži	Pasivno Ucenje	
+Tradicionalna Nastavna Paradigma	sadrži	Opce Obrazovanje	
+Tradicionalna Nastavna Paradigma	sadrži	Zastarijelo Znanje	
+Tradicionalna Nastavna Paradigma	sadrži	Opce Znanje	
+Tradicionalna Nastavna Paradigma	se bazira na	Pojedinacno Ucenje	
+Tradicionalna Nastavna Paradigma	se sastoji od	Nastava U Ucionici	
+Tradicionalno Nacelo Ucenja	je	Administriranje Sudionika	
+Tradicionalno Nacelo Ucenja	je	Oblikovanje Nastavnih Sadržaja	
+Tradicionalno Nacelo Ucenja	je	Pospremanje Nastavnih Sadžaja	
+Tradicionalno Nacelo Ucenja	je	Testiranje Znanja Ucenika	
+Tradicionalno Nacelo Ucenja	je	Upravljanje	
+Tradicionalno Nacelo Ucenja	je	Vocenje Procesa Ucenja I Poucavanja	
+Tradicionalno Nacelo Ucenja	je	Vrednovanje Znanja Ucenika	
+Trajna memorija	može biti	USB Stick	
+Trajna memorija	može biti	DVD	
+Trajna memorija	može biti	CD	
+Trajna memorija	služi za	Pohrana podataka	
+Trajna memorija	služi za	Pohrana informacija	
+Ucenici	koriste	Osnovne vrste objekata	
+Ucenik	ima	Profil	
+Ucenik	ima pristup	Nastavni Sadržaj	
+Ucenik	ima pristup	Komponente Sustava E-Ucenja	
+Ucenik	koristi	Resurse	
+Ucenik	postavlja pitanja u	Nova Napredna Nastavna Paradigma	
+Ucenik	sagledava	Struktura I Pojedinosti Koje Je Ucitelj Oblikovao I Namijenio	
+Ucenik	sudjeluje u	Interaktivnu Komunikaciju	
+Ucenik	uci	Pojedinacno Ucenje	
+Ucenik	uci	Grupno Ucenje	
+Ucenik	uci	Aktivno Ucenje	
+Ucenik	uci	Pasivno Ucenje	
+Ucenje	ima podvrstu	Tekstualna Komunikacija	
+Ucenje	ima podvrstu	Okruženje Za Suradni Rad	
+Ucenje	ima podvrstu	Forum	
+Ucenje	ima podvrstu	Sinkroni Dogacaj	
+Ucenje	ima podvrstu	Interaktivno Ucenje	
+Ucenje	ima podvrstu	On-Line Ucenje	
+Ucenje	je	Aktivno Ucenje	
+Ucenje	je	Pojedinacno Ucenje	
+Ucenje	je	Grupno Ucenje	
+Ucenje	je	Pasivno Ucenje	
+Ucenje	može biti	Formalno Ucenje	
+Ucenje	može biti	Neformalno Ucenje	
+Ucenje	se temelji na	Tradicionalno Nacelo Ucenja	
+Ucenje	omogucava	Ucenje u svako vrijeme	
+Ucenje	omogucava	Ucenje na svakom mjestu	
+Ucenje	omogucava	Scenarij ucenja koji istice individualnost	
+ucenje i poucavanje	koristi	analiza cilja	
+ucenje i poucavanje	koristi	analiza sadržaja	
+ucenje i poucavanje	koristi	analiza medija	
+Ucenje na daljinu	omogucava	Ucenje u svako vrijeme	
+Ucenje na daljinu	omogucava	Ucenje na svakom mjestu	
+Ucionica	ima podvrstu	Klasicna Ucionica	
+Ucionica	ima podvrstu	Virtualna Ucionica	
+Ucitelj	dodaje	Resurse	
+Ucitelj	ima pristup	Komponente Sustava E-Ucenja	
+Ucitelj	ima pristup	Nastavni Sadržaj	
+Ucitelj	je	Nastavnik Kao Vodic	
+Ucitelj	je	Nastavnik U Glavnoj Ulozi	
+Ucitelj	koristi	Bazu Znanja	
+Ucitelj	mijenjaju	Objekti Nastavnog Sadržaja	
+Ucitelj	postavlja pitanja u	Tradicionalna Nastavna Paradigma	
+Ucitelj	stvara	Objekti Nastavnog Sadržaja	
+Ucitelj	može biti	Strucnjak Za Razvoj Nastavnog Sadržaja	
+Ucitelj	sudjeluje u	Interaktivnu Komunikaciju	
+Ucitelj	sudjeluje u	Jednosmjerna Komunikacija	
+Ulazna jedinica	ima podvrstu	Miš	
+Ulazna jedinica	ima podvrstu	Tipkovnica	
+Ulazna jedinica	ima podvrstu	Ekran osjetljiv na dodir	
+Ulazna jedinica	ima podvrstu	Skener	
+Ulazna jedinica	služi za	Unos podataka	
+Upravljanje Blokovima	omogucava urecivanje	Blokovi	
+Upravljanje Grupama	omogucava	Dodavanje Grupe	
+Upravljanje Kolegijem	omogucava	Pregled Korisnika	
+Upravljanje Kolegijem	omogucava	Upravljanje Grupama	
+Upravljanje Kolegijem	omogucava	Pregled Izvješca O Kolegiju	
+Upravljanje Kolegijem	omogucava urecivanje	Lista Nastavnika	
+Upravljanje Kolegijem	omogucava urecivanje	Lista Polaznika	
+Urecivanje Kolegija I Nastavnog Plana	omogucava	Rad S Kalendarom	
+Urecivanje Kolegija I Nastavnog Plana	omogucava urecivanje	Oblik Kolegija	
+Urecivanje Kolegija I Nastavnog Plana	omogucava urecivanje	Postavke Kolegija	
+USB Stick	služi za	Prijenos informacija	
+Usmjereno Obrazovanje	daje	Znanje Prema Potrebi	
+Video Konferencija	koristi	Multimedijska Tehnologija	
+Video Konferencija	odvija se u	Realno Vrijeme	
+Video prikaz	omogucava	Uspješnije obavljanje vježbi i postizanje boljih rezultata	
+Video Streaming	odvija se preko 	Apple Quick Time	
+Video Streaming	odvija se preko 	Microsoft Media Player	
+Video Streaming	odvija se preko 	Real Media Player	
+Video Streaming	se naziva	"Streaming ""On Demand"""	
+Virtualna zajednica	može biti	Društveno web mjesto	
+Virtualna zajednica	može biti	Internet forum	
+Virtualna Ucionica	ima primjer	Webinar	
+Vježba na racunalu	može biti	Simulacije	
+Vježba na racunalu	može biti	Vježba pomocu CD-ROM-a	
+Vježba na racunalu	može biti	Vježba za domacu zadacu	
+Vježba pomocu CD-ROM-a	koriste	CD-ove sa audio sadržajem	
+Vježba pomocu CD-ROM-a	koriste	CD-ovi sa simulacijama aktivnosti	
+Vježba pomocu CD-ROM-a	koriste	CD-ove sa video sadržajem	
+Vježba pomocu CD-ROM-a	koriste	CD-ove sa tekstualnim sadržajem	
+Vocenje Procesa Ucenja I Poucavanja	može biti	U Elektronickom Okruženju	
+Vrednovanje Znanja	se temelji na	Tradicionalno Nacelo Ucenja	
+Web	cini	Infrastrukturu Ucenja	
+Web aplikacije	mogu biti	Kompleksne aplikacije	
+Web aplikacije	mogu biti	Jednostavne aplikacije	
+Web Dokument	koristi	Html Editor	
+Web stranica	sacinjava	Obrazovni sadržaj	
+Webinar	koristi	Multimedijska Tehnologija	
+Webinar	odvija se u	Realno Vrijeme	
+What2Learn	služi za	Izradu Kvizova I Igara	
+Wiki	ima	Wikipedija	
+Wiki	omogucava	Modificiranje Sadržaja	
+Wiki	omogucava	Obrazovno okruženje	
+Wiki	ima	Jednostavna sintaksa	
+WWW	može biti	Lekcija	
+WWW	može biti	Sadržajnih Modula	
+Zadace I Provjere Znanja	obuhvaca	Dodjela Zadaca	
+Zadace I Provjere Znanja	obuhvaca	Testovi	
+Zadace I Provjere Znanja	obuhvaca	Prikupljanje Zadaca	
+Znanje	je	Znanje Prema Potrebi	
+Znanje	je	Opce Znanje	
+Znanje	je	Znanje Prilagoceno Vremenu	
+Znanje	je	Zastarijelo Znanje	

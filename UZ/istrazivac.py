@@ -12,7 +12,7 @@ conn.commit()
 # Petlja koje se stalno vrti dok korisnik ne unese broj
 while True:
     # Ucitaj trenutne koordinate
-    cursor.execute("SELECT xkoord, ykoord FROM polje WHERE poljeID = (SELECT poljeID from stanje)")
+    cursor.execute("SELECT xkoord, ykoord FROM polje WHERE poljeID = (SELECT poljeID FROM stanje)")
     xkoord, ykoord = cursor.fetchone() # spremi rezultate SQL querya u varijable
 
     # Povecaj tezinu polja na kojem se nalazis za 2
@@ -21,6 +21,9 @@ while True:
 
     # U 'okruzenje' se spremaju sva polja okolo robota u tom trenutku da bi se mogalo izracunati sljedece polje na koje ce robot ici. Format: {ID polja: tezina polja}
     okruzenje = dict()
+
+    cursor.execute("SELECT d_tezina FROM polje WHERE poljeID = (SELECT poljeID FROM stanje); ")
+    t_tezina = cursor.fetchone()
 
     # Petlja za skeniranje okolo sebe, 1 - 4 za svaku stranu
     for i in range(4):
@@ -43,15 +46,18 @@ while True:
 
         # Dodaj vrijednosti i koordinate u bazu
         # - ucitavanje trenutnog smjera za izracun koordinata polja ispred
-        cursor.execute("SELECT smjer FROM stanje;")
-        smjer = cursor.fetchone()
+        cursor.execute("SELECT smjer, poljeID FROM stanje;")
+        smjer, t_polje = cursor.fetchone()
         # - izracunaj i spremi vrijednosti polja ispred
         cursor.execute("CALL spremi_polje_ispred(%s)", smjer)
 
         # - dodaj vrijednosti polja u okruzenje
-        cursor.execute("SELECT poljeID, tezina FROM polje WHERE xkoord = @pi_x AND ykoord = @pi_y")
-        poljeID, tezina = cursor.fetchone()
+        cursor.execute("SELECT poljeID, tezina, d_tezina FROM polje WHERE xkoord = @pi_x AND ykoord = @pi_y")
+        poljeID, tezina, d_tezina= cursor.fetchone()
         okruzenje[int(poljeID)] = int(tezina)
+
+        cursor.execute("CALL dodajVezu('%s','veza', '%s', %s);", (t_polje, poljeID, d_tezina))
+        conn.commit()
 
         # - ucitaj koordinate polja ispred
         cursor.execute("SELECT @pi_x, @pi_y;")

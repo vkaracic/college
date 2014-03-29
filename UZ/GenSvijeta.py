@@ -12,6 +12,11 @@ for i in xrange(cursor.rowcount):
     key = (int(xkoord), int(ykoord))
     svijet[str(key)] = int(tezina)
 
+cursor.execute("DROP TABLE IF EXISTS cvor")
+conn.commit()
+
+cursor.execute("CREATE TABLE cvor ")
+
 cursor.execute("DELETE FROM svijet;")
 cursor.execute("ALTER TABLE svijet AUTO_INCREMENT = 1;")
 conn.commit()

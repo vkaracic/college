@@ -1,0 +1,935 @@
+﻿ADL model	SCORM (Sharable Content Object Referenc Model)
+Administriranje Sudionika	Administrator Sustava
+Administriranje Sudionika	Strucnjak Podrucnog Znanja
+Administriranje Sudionika	Ucenik
+Administriranje Sudionika	Ucitelj
+Administriranje Sudionika	Tradicionalno Nacelo Ucenja
+Adobe Captivate 5.5	Litmos
+Adobe Captivate 5.5	Izradu Kvizova I Igara
+AICC model	Assigned units lessons
+Aktivnosti	Mogucnosti sustava moodle
+Aktivnosti	Profesori
+Aktivnosti	Ucenici
+Aktivnosti	Osnovne vrste objekata
+Alat	Prikupljanje sadržaja za ucenje
+Alati Za Oblikovanje Sadržaja	Rapid Intake
+Alati Za Oblikovanje Sadržaja	Adobe Captivate 5.5
+Alati Za Oblikovanje Sadržaja	Brainshark
+Alati Za Oblikovanje Sadržaja	Articultate
+Alati Za Oblikovanje Sadržaja	Camtasia Studio 7
+Alati Za Oblikovanje Sadržaja	Lectora
+Alati Za Oblikovanje Sadržaja	Ucitelj
+Alati Za Oblikovanje Sadržaja	Strucnjak Podrucnog Znanja
+Alati Za Oblikovanje Sadržaja	Nastavni Objekt
+Alati Za Oblikovanje Sadržaja	Programska Aplikacija
+Alati Za Oblikovanje Sadržaja	Flash
+Alati Za Oblikovanje Sadržaja	Html
+Alati Za Prikupljanje Sadržaja	Modul
+Alati Za Prikupljanje Sadržaja	Komponente
+Alati Za Prikupljanje Sadržaja	Predložak
+Animacija	Uspješnije obavljanje vježbi i postizanje boljih rezultata
+Aplikacija	Dostava Nastavnih Materijala
+Aplikacija	Pracenje
+Aplikacija	Izvještavanje
+Aplikacija	Dokumentacija
+Aplikacija	Administracija
+Articulate Presenter	Litmos
+Articulate Presenter	Izradu Kvizova I Igara
+ASinkroni Nacin Isporuke Isporuke	On-Line Diskusijske Grupe
+ASinkroni Nacin Isporuke Isporuke	Komunikacija Putem Elektronicke Pošte.
+ASinkroni Nacin Isporuke Isporuke	Tecajevi Isporuceni Putem Interneta
+ASinkroni Nacin Isporuke Isporuke	Tecajevi Isporuceni Preko Cd Ili Dvd Medija
+Asinkrono ucenje	Elektronicka Pošta
+Asinkrono ucenje	Inteligentni Tutorski Sustavi
+Asinkrono ucenje	Novinske Grupe
+Asinkrono ucenje	Blog
+Asinkrono ucenje	Forum & Threaded Discussion
+Asinkrono ucenje	Wiki
+Asinkrono ucenje	Sudionika U Obrazovnom Sustavu
+Asinkrono ucenje	Raspodijeljeno Ucenje
+Asinkrono ucenje	Korisnici Aktivni U Razlicito Vrijeme
+Asinkrono ucenje	Dobre strane
+Asinkrono ucenje	Komponente
+Asinkrono ucenje	Mjesto
+Asinkrono ucenje	Vrijeme
+Asinkrono ucenje	Loše strane
+Autor Sadržaja	Strucnjak Podrucnog Znanja
+Autor Sadržaja	Ucitelj
+Autorski alat	Pospremanje sadržaja za ucenje
+Autorski alat	Pretraživanje sadržaja za ucenje
+Autorski alat	Oblikovanje sadržaja za ucenje
+Autorski alat	Naplativi Alati
+Autorski alat	Nenaplativi Alati
+Autorski alat	Okruženje
+Autorski alat	Alati Za Prikupljanje Sadržaja
+Autorski alat	Alati Za Oblikovanje Sadržaja
+Autorski alat	Oblikovanje Lista Za Vocenje Diskusija I Rasprava Ucesnika Sustava Za E-Ucenje
+Autorski alat	Oblikovanje I Urecivanje On-Line Kvizova
+Autorski alat	Oblikovanje Nastavnih Sadržaja
+Blog	Dodavanje Multimedije
+Blog	Tekst
+Blog	Online Dnevnik
+Brainshark	WWW
+Broadcast & Cable Television	Discovery Channel
+Camtasia Studio 7	Litmos
+CD-ROM	Isporuka sadržaja
+CD-ROM	On-line ucenje
+CD-ROM	Individualizirano ucenje
+CD-ROM	Interaktivno ucenje
+CD-ROM	Hybrid Dics
+Chat	Razmjena Poruka
+Collaboration & Community	Chat
+Collaboration & Community	Im
+Daljinsko Ucenje	Racunalna Mreža
+Daljinsko Ucenje	Interaktivno
+Datoteka	Graficka Datoteka
+Datoteka	Tekstualna Datoteka
+Datoteka	Zvucna Datoteka
+Datoteka	Obrazovni sadržaj
+Digitalni oblik	Video
+Digitalni oblik	Animacija
+Digitalni oblik	Tekst
+Digitalni oblik	Slika
+Digitalni oblik	Simalacija
+Digitalni oblik	Zvuk
+dimenzije	korisnicko sucelje
+dimenzije	poslovanje
+dimenzije	procjenjivanje
+dimenzije	tehnologija
+dimenzije	institucija
+dimenzije	on-line podrška
+dimenzije	pedagogija
+Diploma	Svjetski Priznata Diploma
+Diploma	Nacionalno Priznata Diploma
+Direktorij	Obrazovni sadržaj
+Direktorij	Datoteka
+Diskusija	Blog
+Diskusija	Forum
+Distance Learning Tehnologija	Broadcast & Cable Television
+Distance Learning Tehnologija	Phone Konfrencija
+Distance Learning Tehnologija	Video Konfernecija
+Dobre strane	Kontrola nad redom ucenja sadržaja
+Dobre strane	Proucavanje sadržaja na više nacina
+Dobre strane	organizacija i raspored vremena za ucenje
+Dobre strane	više vremena za razmišljanje i odgovaranje na pitanja
+Dodatni materijal	Kviz
+Dodavanje Multimedije	Proces Poucavanja
+Dodavanje Multimedije	Proces Ucenja
+Dodjela Zadaca	Izrada Zadatka
+Dogacaj unutar kolegija	Predaja radova
+Dogacaj unutar kolegija	Pocetak pisanja testa
+Dogacaji	Grupni dogacaji
+Dogacaji	Korisnicka dogacanja
+Dogacaji	Globalni dogacaj
+Dogacaji	Dogacaj unutar kolegija
+Dokument u PDF formatu	Skidanje
+Dokument u PDF formatu	Grafike
+Društvena Mreža	Facebook
+Društvena Mreža	Myspace
+Društvena Mreža	Twitter
+Društvena Programska Podrška	Mrežnu Platformu
+Društvene Oznake	Flickr
+DVD	Individualizirano ucenje
+DVD	Interaktivno ucenje
+DVD	On-line ucenje
+Elektronicki Medij	CD-ROM
+Elektronicki Medij	DVD
+Elektronicki urecaji	Mobiteli
+Elektronicki urecaji	PDA
+Elektronicki urecaji	Racunala
+Elliott Masie	Ucenje
+Entitet	Digitalni oblik
+Entitet	Ne-digitalni oblik
+e-ucenje	Sustav Za Upravljanje Procesom Ucenja
+e-ucenje	Proces poucavanja
+e-ucenje	Obrazovanje
+e-ucenje	Proces ucenja
+e-ucenje	Oblikovanje
+e-ucenje	Odabir
+e-ucenje	Isporuka
+e-ucenje	Administriranje i proširenje ucenja
+e-ucenje	Eng. termin eLearning
+e-ucenje	Prikupljanje i upotreba znanja
+e-ucenje	Upotrebu elektronickih urecaja
+e-ucenje	Moduli ucenja
+e-ucenje	Tecaji
+e-ucenje	Objekti ucenja
+e-ucenje	Primjene i procesi
+e-ucenje	Isporuka sadržaja
+e-ucenje	CD-ROM
+e-ucenje	DVD
+e-ucenje	Internet
+e-ucenje	Interaktivna televizija
+e-ucenje	Raspoloživi mediji
+e-ucenje	Objekti e-ucenja
+e-ucenje	Asinkrono ucenje
+e-ucenje	Okvire e-ucenja
+e-ucenje	Sinkrono ucenje
+Ucionice Licem U Lice	Izleti
+Ucionice Licem U Lice	Laboratorij
+Ucionice Licem U Lice	Fizicka Ucionica
+Flickr	Kategorizacija Slika
+Flickr	Pretraživanje Slika
+Flickr	Dodavanje Metapodataka
+Formalno Ucenje	Škola
+Formati	Istraživanja
+Formati	Vježbe na internetu
+Formati	Mailing liste
+Formati	Forumi za online diskusije
+Formati	Web stranice
+Formati	e-mail
+Formati	Blogovi
+Formati	Web dokumenti
+Formati	Testovi
+Forum	Sudionike/Akteri
+Forum	Ocjenjivanje Poruka
+Forum	Slanje Poruka
+Forum	Dodavanje Priloga
+Globalni dogacaj	Privremeni prekid rada
+Graficka Datoteka	Video
+Graficka Datoteka	Slike
+Granula znanja	Objekt ucenja
+Grupni dogacaji	Predaja radova
+Individualizirano ucenje	Uspješnije obavljanje vježbi i postizanje boljih rezultata
+Individualizirano ucenje	Scenarij ucenja koji istice individualnost (onoliko koliko uceniku treba)
+Informacijska i komunikacijska tehnologija	Informacijska tehnologija
+Informacijska i komunikacijska tehnologija	Komunikacijska tehnologija
+Informacijska tehnologija	Racunalo
+institucija	servis poucenika
+institucija	administrativni poslovi
+institucija	akademski poslovi
+Interaktivna televizija	On-line ucenje
+Interaktivna televizija	Individualizirano ucenje
+Interaktivna televizija	Interaktivno ucenje
+Internet	E-ucenje
+Internet	Slanje istovremenih poruka
+Internet	RSS
+Internet	Virtualna zajednica
+Internet	VoIP
+Internet	E-pošta
+Internet	World Wide Web
+Internet	Intranet
+Internet	Pet R pravih uvjeta
+Internet	On-line ucenje
+Internet	Individualizirano ucenje
+Internet	Interaktivno ucenje
+Internet	Isporuka sadržaja
+Internet	Video prikaz
+Internet	Animacija
+Internet	Prikupljanje informacija
+Internet Obrazovanje	Teoreticar
+Internet Obrazovanje	Internet
+Internet Obrazovanje	WWW
+Intranet	Ekstranet
+Isporuka sadržaja	Obuka
+Isporuka sadržaja	Ucenje
+Isporuka sadržaja	Obrazovni program
+Isprintani dokumenti	Teksta
+Izgled	oblikovanje stranica
+Izgled	test upotrebljivosti
+Izgled	navigacija
+Izgled	oblikovanje sadržaja
+Izlazna jedinica	Ekran osjetljiv na dodir
+Izlazna jedinica	Zaslon
+Izlazna jedinica	Pisac
+Izlazna jedinica	Projektor
+Izlazna jedinica	Prikaz podakata
+Izrada Zadatka	Opis Zadatka
+Izrada Zadatka	Ocjena Zadatka
+Izrada Zadatka	Naziv Zadatka
+Jay Cross	Origins Of Elearning
+Jay Cross	Neformalno Ucenje
+Jednosmjerna Komunikacija	Ucenik
+Jednostavna sintaksa	Jednostavno korištenje
+Jednostavna sintaksa	Jednostavno modificiranje
+Jednostavna sintaksa	Jednostavno održavanje
+Jednostavne aplikacije	Aplikacije za snimanje aktivnosti na ekranu
+Jednostavni Oblici Nastavnog Sadržaja	Web Dokumenata
+Jednostavni Oblici Nastavnog Sadržaja	Mapa
+Jednostavni Oblici Nastavnog Sadržaja	Datoteka
+Jednostavni Oblici Nastavnog Sadržaja	Linkova
+Kalendar	Dogacaji
+Khan	Okvire e-ucenja
+Klasicna Ucionica	Field Trips
+Klasicna Ucionica	Fizicka Ucionica
+Klasicna Ucionica	Learning Lab
+Kolegij	Programiranje1
+Kolegij	Sustavi E-Ucenja
+Kolegij	Spa
+Kolegij	Programiranje2
+Kompleksne aplikacije	Aplikacije koje koriste video klipove
+Kompleksne aplikacije	Aplikacije koje koriste audio naraciju
+Kompleksne aplikacije	Aplikacije simulacija
+Kompleksne aplikacije	Aplikacije koje koriste web animacije
+Komponenta Za Mjerenje Postignuca	Stroj Za Testiranje I Procjenu
+Komponenta Za Mjerenje Postignuca	On-Line Kvizovi
+Komponenta Za Ostvarivanje Komunikacija Posredstvom Racunala	Razgovorne Sobe
+Komponenta Za Ostvarivanje Komunikacija Posredstvom Racunala	Sustavi Za Razmjenu Elektronske Pošte
+Komponenta Za Ostvarivanje Komunikacija Posredstvom Racunala	Diskusijski Forumi
+Komponenta Za Upravljanje Tecajem	Podrška I Osobnost Pristupa Razlicitim Sudionicima
+Komponenta Za Upravljanje Tecajem	Postignuce Ucenika
+Komponenta Za Upravljanje Tecajem	Nadzor Ucenika
+Komponentarno okruženje sustava za e-ucenje	Pretraživanje sadržaja za ucenje
+Komponentarno okruženje sustava za e-ucenje	Razgovorni sustav
+Komponentarno okruženje sustava za e-ucenje	Kviz
+Komponentarno okruženje sustava za e-ucenje	Multimedija
+Komponentarno okruženje sustava za e-ucenje	Elektronska pošta
+Komponente	Komponenta Za Mjerenje Postignuca
+Komponente	Komponentu Za Upravljanje Tecajem
+Komponente	Navigacijski Alati
+Komponente	Komponenta Za Ostvarivanje Komunikacija Posredstvom Racunala
+Komponente	Online komponente
+Komponente	Offline komponente
+Komponente Sustava E-Ucenja	Kviz Za Provjeru Znanja
+Komponente Sustava E-Ucenja	Elektronska Pošta
+Komponente Sustava E-Ucenja	Dijeljenje Aplikacija
+Komponente Sustava E-Ucenja	Multimedija
+Komponente Sustava E-Ucenja	Suradni Alati
+Komponente Sustava E-Ucenja	Razgovorni Sustav
+Komuniciranje	Interaktivna Komunikacija
+Komuniciranje	Jednosmjerna Komunikacija
+Komunikacija	Forum
+Komunikacija	Poruke
+Komunikacija	Chat
+Komunikacija	kalendar
+Komunikacija	RSS
+Komunikacijska tehnologija	VPN
+Komunikacijska tehnologija	LAN
+Komunikacijska tehnologija	WAN
+Komunikacijska tehnologija	Internet
+Komunikacijska tehnologija	WLAN
+Komunikacijska tehnologija	Prijenos informacija
+Komunikacijski I Kolaborativni Alati	Forum
+Komunikacijski I Kolaborativni Alati	Chat
+Komunikacijski I Kolaborativni Alati	Pitanje
+Korisnicka dogacanja	Napomena za ucenje
+Korisnicko Sucelje	Moodle Blokovi
+Korisnicko Sucelje	Gumb Za Izmjene
+Korisnicko Sucelje	Navigacijska Traka
+Korisnicko Sucelje	Zaglavlje
+Korisnicko Sucelje	Izgled
+Kretanje	Nastavni Sadržaj
+Kvizovi	Pitanja
+LCMS	Moodle
+LCMS	Repozitorij podataka
+Lectora	WWW
+Leinonen	Razvoj E-Ucenja
+Linkovi	Web Stranice
+Linkovi	Web Dokumenata
+Lista Nastavnika	Dodavanje Nastavnika
+Lista Polaznika	Dodavanje Studenata
+Litmos	Lms
+Litmos	WWW
+Live Online	Virtualna Ucionica
+Live Online	Webinar
+LMS paketi	Pracenje ocjenjivanja
+LMS paketi	Komunikacija
+LMS paketi	Obrazovni sadržaj
+Logo	Prostor Za Rješavanje Problema
+Loše strane	Nema mogucnosti za direktna pitanja
+Loše strane	Sadržaj je relativno statican
+Mapa	Datoteka
+Memorija	Radna memorija
+Memorija	Trajna memorija
+Mobile & Wireless Learning Tools	Personal Media Players
+Mobile & Wireless Learning Tools	Smart Phone
+Mobile & Wireless Learning Tools	Tablet Pc
+Mobitel	Ostvarivanje obrazovanja
+Mobitel	Pristup nastavnom sadržaju za e-ucenje
+Model Funkcionalnosti	Rukovoditelj Profila Ucenika
+Model Funkcionalnosti	Arhivar Ucenika
+Model Funkcionalnosti	Spremišta Sadržaja I Katalozi Ponude
+Model Funkcionalnosti	Okruženje Isporuke Nastavnih Sadržaja
+Model Funkcionalnosti	Alati Za Oblikovanje Sadržaja
+Model Funkcionalnosti	Planer Ucenja
+Model Funkcionalnosti	Alati Za Prikupljanje Sadržaja
+Model Funkcionalnosti	Okruženje Za Suradnju
+Model Funkcionalnosti	Rukovoditelj Kataloga
+Modificiranje Sadržaja	Jednostavna Sintaksa
+Modul	Ucenje
+Moodle	Zadace I Provjere Znanja
+Moodle	Upravljanje Kolegijem
+Moodle	Urecivanje Kolegija I Nastavnog Plana
+Moodle	Rad S Nastavnim Materijalima
+Moodle	Ocjenjivanje
+Moodle	Komunikacijski I Kolaborativni Alati
+Moodle	Resurse
+Moodle	Kolegij
+Moodle	Sudionike/Aktori
+Moodle	Aktivnosti
+Mreža	Isporuka sadržaja
+Mrežna Platforma	Blog
+Mrežna Platforma	Društvena Mreža
+Mrežna Platforma	Društvena Oznaka
+Mrežna Platforma	RSS
+Mrežna Platforma	Wiki
+Mrežne Platforme	Raspodjela Sadržaja
+Multimedija	Audio trake
+Multimedija	Video trake
+Multimedija	Interaktivna TV
+Multimedija	Isporuka sadržaja
+Multimedijalni Sadržaji	Audio Zapis
+Multimedijalni Sadržaji	Video Zapis
+Multimedijalni Sadržaji	Simulacije
+Multimedijalni Sadržaji	Graficki Zapisi
+Multimedijalni Sadržaji	Animacije
+Multimedijalni Sadržaji	Tekstualni
+Multimedijalni Sadržaji	Fotografija
+Multimedijska Tehnologija	CD-ROM
+Multimedijska Tehnologija	DVD
+Multimedijska Tehnologija	Live Streaming
+Multimedijska Tehnologija	Podcasting Tehnologija
+Multimedijska Tehnologija	Video Streaming
+Multimedijska Tehnologija	Voip
+Naplativi Alati	Adobe Captive
+Naplativi Alati	Articulate Presenter
+Nastava	Nastava U Ucionici
+Nastava	Online Nastava
+Nastavni Sadržaj	Uvodni Dio
+Nastavni Sadržaj	Primjere I Procjene
+Nastavni Sadržaj	Objašnjenja
+Nastavni Sadržaj	Skladan I Efikasan Modul Ucenja
+Nastavni Sadržaj	Alata
+Nastavni Sadržaj	Prezentacija
+Nastavni Sadržaj	Eksperimenata
+Nastavni Sadržaj	Programske Aplikacije
+Nastavni Sadržaj	Tutora
+Nastavni Sadržaj	Osoba
+Nastavni Sadržaj	Vodica
+Nastavni Sadržaj	Knjiga
+Nastavni Sadržaj	Okruženja za izradu nastavnih sadržaja
+Navigacija Po Sadržaju	Ucitelj
+Navigacija Po Sadržaju	Ucenik
+Navigacija Po Sadržaju	Sustav
+Navigacijski Alati	Kretanje
+Navigacijski Alati	Organizacija
+Ne-digitalni oblik	Tekst
+Ne-digitalni oblik	Ciljevi ucenja
+Ne-digitalni oblik	Simulacija
+Nedostatak Sinkronog Nacina Isporuke E-Ucenja	Cijena
+Nedostatak Sinkronog Nacina Isporuke E-Ucenja	Povecano Radno Opterecenje
+Nedostatak Sinkronog Nacina Isporuke E-Ucenja	Problem Vezan Uz Korištenje Tehnologije
+Nedostatak Sinkronog Nacina Isporuke E-Ucenja	Problem Vezan Uz Tehnicku Podršku
+Neformalno Ucenje	Izvan Škole
+Nenaplativi Alati	Wink
+Nenaplativi Alati	What2Learn
+Nova Napredna Nastavna Paradigma	Svjetski Priznata Diploma
+Nova Napredna Nastavna Paradigma	Ocjenjivanje
+Nova Napredna Nastavna Paradigma	Fleksibilni Sadržaj
+Nova Napredna Nastavna Paradigma	Prakticni Sadržaj
+Nova Napredna Nastavna Paradigma	Nastavnik Kao Vodic
+Nova Napredna Nastavna Paradigma	Interaktivnu Komunikaciju
+Nova Napredna Nastavna Paradigma	Ucenje
+Nova Napredna Nastavna Paradigma	Znanje Prema Potrebi
+Nova Napredna Nastavna Paradigma	Znanje Prilagoceno Vremenu
+Nova Napredna Nastavna Paradigma	Usmjereno Obrazovanje
+Nova Napredna Nastavna Paradigma	Aktivno Ucenje
+Nova Napredna Nastavna Paradigma	Grupno Ucenje
+Nova Napredna Nastavna Paradigma	Online Nastava
+Nova Tehnologija	Ucenje
+Numericko ocjenjivanje	Anketa
+Numericko ocjenjivanje	Zadaca
+Numericko ocjenjivanje	Test
+Objekt ucenja	Multimedija
+Objekt ucenja	Razgovorni sustav
+Objekt ucenja	Nastavni sadržaj
+Objekt ucenja	Printane materijale
+Objekt ucenja	Web
+Objekt ucenja	CD-ROM
+Objekti e-ucenja	Skup informacija
+Objekti e-ucenja	Organizirati
+Objekti e-ucenja	ADL model
+Objekti e-ucenja	Interoperabilan
+Objekti e-ucenja	Dostupan
+Objekti e-ucenja	AICC model
+Objekti e-ucenja	Okruženja za izradu nastavnih sadržaja
+Objekti e-ucenja	Entitet
+Objekti e-ucenja	Spremiti
+Objekti e-ucenja	Trajan
+Objekti Nastavnog Sadržaja	Multimedijalni Sadržaji
+Oblik Kolegija	Tjedni Oblik
+Oblik Kolegija	Tematski Oblik
+Oblik Kolegija	Socijalni Oblik
+Oblikovanje I Urecivanje On-Line Kvizova	Pitanja
+Oblikovanje sadržaja za ucenje	Granula znanja
+Oblikovanje sadržaja za ucenje	Video zapis
+Oblikovanje sadržaja za ucenje	Graficki zapis
+Oblikovanje sadržaja za ucenje	Audio zapis
+Oblikovanje sadržaja za ucenje	Fotografija
+Oblikovanje sadržaja za ucenje	Tekst
+Oblikovanje sadržaja za ucenje	Simulacija
+Oblikovanje sadržaja za ucenje	Animacija
+Obrada podataka	Upravljanje podataka
+Obrada podataka	Pohrana podataka
+Obrazovanje	Nova Napredna Nastavna Paradigma
+Obrazovanje	Usmjereno Obrazovanje
+Obrazovanje	Opce Obrazovanje
+Obrazovanje	Tradicionalna Nastavna Paradigma
+Obrazovanje	Internet
+Obrazovanje	Racunalo s multimedijom
+Obrazovanje	Poucavanje
+Obrazovanje	Ucenje
+Obrazovni Sadržaj	Ucenike
+Ocjenjivanje	Pregled Ocjena
+Ocjenjivanje	Skala Ocjenjivanja
+Ocjenjivanje	Numericko ocjenjivanje
+Ocjenjivanje	Opisno ocjenjivanje
+Offline komponente	Grafike
+Offline komponente	Isprintani dokumenti
+Offline komponente	Vježbe na racunalu
+Okruženja za izradu nastavnih sadržaja	LCMS
+Okruženje	Promjena Osobnih Podataka
+Okruženje	Pomoc Korisnicima
+Okruženje	Upravljanje Blokovima
+Okruženje	Prijava Na Sustav
+Okruženje	Korisnicko Sucelje
+Okruženje Isporuke Nastavnih Sadržaja	ASinkroni Nacin Isporuke Isporuke
+Okruženje Isporuke Nastavnih Sadržaja	Sinkroni Nacin Isporuke Isporuke
+Okruženje Isporuke Nastavnih Sadržaja	Stroj Za Testiranje I Procjenu
+Okruženje Isporuke Nastavnih Sadržaja	Okruženje Za Suradnju
+Okruženje Isporuke Nastavnih Sadržaja	Arhivar Ucenika
+Okruženje Isporuke Nastavnih Sadržaja	Rukovoditelj Profila Ucenika
+Okruženje Isporuke Nastavnih Sadržaja	Planer Ucenja
+Okruženje Isporuke Nastavnih Sadržaja	Navigacija Po Sadržaju
+Okruženje Isporuke Nastavnih Sadržaja	Nastavni Sadržaj
+Okruženje Isporuke Nastavnih Sadržaja	Komponente Sustava E-Ucenja
+Okruženje Isporuke Nastavnih Sadržaja	Sinkroni Nacin Isporuke
+Okruženje Isporuke Nastavnih Sadržaja	ASinkroni Nacin Isporuke
+Okruženje Za Suradnju	Virtualna Ucionica Ucionica
+Okviri e-ucenja	dimenzije
+Online komponente	Online predavanja
+Online komponente	Dokumenti u PDF formatu
+Online komponente	Formati
+Online komponente	Web aplikacije
+On-Line Kvizovi	Ocjenu
+On-Line Kvizovi	Pitanja Postavljena Temeljem Slucajnog Izbora
+On-Line Kvizovi	Pitanja Sastavljena Po Predlošcima
+On-line podrška	suvislo okruženje
+On-line podrška	interaktivnost
+Online predavanja	Grafike
+Online predavanja	Dodatni materijali
+Online predavanja	Teksta
+On-Line Ucenje	Upotreba Mrežne Tehnologije
+On-Line Ucenje	Ucenje na daljinu
+Opce Obrazovanje	Opce Znanje
+Opisno ocjenjivanje	Diskusija
+Organizirati	Repozitorij podataka
+Osnovne vrste objekata	Ocjenjivanje
+Osnovne vrste objekata	Suradnja
+Osnovne vrste objekata	Komunikacija
+Osnovne vrste objekata	Spremanje
+Osnovni Element Strukture Sustava E-Ucenja	Autorski Alati
+Osnovni Element Strukture Sustava E-Ucenja	Navigacijski Alati
+Osnovni Element Strukture Sustava E-Ucenja	Komponenta Za Upravljanje Tecajem
+Osnovni Element Strukture Sustava E-Ucenja	Komponenta Za Mjerenje Postignuca
+Osnovni Element Strukture Sustava E-Ucenja	Komponenta Za Ostvarivanje Komunikacija Posredstvom Racunala
+Osnovni sadržaj lekcije	Nastavni Sadržaj
+Osoba	Ucitelj
+Ostali Oblici Nastavnog Sadržaja	Prezentacija
+Ostali Oblici Nastavnog Sadržaja	Knjiga
+Ostali Oblici Nastavnog Sadržaja	Eksperimenata
+Ostali Oblici Nastavnog Sadržaja	Alata
+Ostali Oblici Nastavnog Sadržaja	Vodica
+Ostali Oblici Nastavnog Sadržaja	Programske Aplikacije
+Ostali Oblici Nastavnog Sadržaja	Tutora
+Ostali Oblici Nastavnog Sadržaja	Osoba
+Oznake	Obrazovni sadržaj
+Oznake	Pretraga
+Oznake	Kategorizacija
+Oznake	Objašnjenje
+PDA	Pristup nastavnom sadržaju za e-ucenje
+PDA	Digitalno ucenje
+PDA	Ostvarivanje obrazovanja
+pedagogija	analiza medija
+pedagogija	analiza sadržaja
+pedagogija	ucenje i poucavanje
+pedagogija	analiza cilja
+Personal Media Players	Ipod-Mp3 Audio
+Personal Media Players	Video Ipod
+Pet R pravih uvjeta	Isporucenost na pravo mjesto
+Pet R pravih uvjeta	Pravi nacin
+Pet R pravih uvjeta	Pravo vrijeme
+Pet R pravih uvjeta	Pravi posao
+Pet R pravih uvjeta	Prave vještine
+Phone Konferencija	Multimedijska Tehnologija
+Phone Konferencija	Voip
+Phone Konferencija	Realno Vrijeme
+Pitanja	Slucajnim Izborom
+Pitanja	Odgovor S Višestrukim Izborom
+Pitanja	Odgovor Sa Da Ili Ne
+Pitanja	Odgovor S Popunjavanjem Nedostajucih Rijeci
+Plan tecaja	Ponuda razlicitih struktura ucenicima
+Plan tecaja	Plan ucenja
+Podcasting Tehnologija	Personal Media Players
+Podrška I Osobnost Pristupa Razlicitim Sudionicima	Ucenik
+Podrška I Osobnost Pristupa Razlicitim Sudionicima	Ucitelje
+Ponovno upotrebljivi objekt ucenja	Sadržajna komponenta
+Posebni Programi	Internet Stranice
+Posebni Programi	Obavijesti
+poslovanje	bitne informacije
+poslovanje	okruženje
+Pospremanje sadržaja za ucenje	Granula znanja
+Postavke Kolegija	Naziv I Kraticu Kolegija
+Postavke Kolegija	Kategoriju Kolegija
+Postavke Kolegija	Opis Kolegija
+Postojece Sadržaje	Ponovno Upotrijebiti
+Poucavanje	Mentorstvo
+Poucavanje	Poducavanje
+Poucavanje	Tradicionalno Nacelo Ucenja
+Poucavanje	Ucenje na svakom mjestu
+Poucavanje	Scenarij ucenja koji istice individualnost
+Poucavanje	Ucenje u svako vrijeme
+Poveznica	Datoteka
+Poveznica	Web stranica
+Prakticni Sadržaj	Znanje Prema Potrebi
+Predložak	Prezentaciji
+Predložak	Strukturi
+Predložak	Metoda Za Oblikovanje Nastave
+Predložak	Nastavni Sadržaj
+Prednost Sinkronog Nacina Isporuke E-Ucenja	Mogucnost Evidentiranja
+Prednost Sinkronog Nacina Isporuke E-Ucenja	Mogucnost Globalnog Povezivanja
+Prednost Sinkronog Nacina Isporuke E-Ucenja	Mogucnost Kontinuiranog Nadgledanja
+Prednost Sinkronog Nacina Isporuke E-Ucenja	Mogucnost Otklanjanja Pogreške
+Prednost Sinkronog Nacina Isporuke E-Ucenja	Mogucnost Prilagocavanja Tecaja
+Prednost Sinkronog Nacina Isporuke E-Ucenja	Mogucnost Suradnje Mecu Polaznicima
+Prednost Sinkronog Nacina Isporuke E-Ucenja	Mogucost Pracenja Nastave
+Pregled Korisnika	Popis Korisnika
+Pregled Ocjena	Po Skupinama
+Pregled Ocjena	Pojedinacno
+Pretraživanje sadržaja za ucenje	Granula znanja
+Prijava Na Sustav	Lozinka
+Prijava Na Sustav	Korisnicko Ime
+Prikljucak	Paralelni prikljucak
+Prikljucak	USB prikljucak
+Prikljucak	Serijski prikljucak
+Prikupljanje i upotreba znanja	Racunala
+Prikupljanje i upotreba znanja	Mreže
+Prikupljanje sadržaja za ucenje	Granula znanja
+Prikupljanje Zadaca	Link Na Zadace
+Primjena Icta U Ucenju I Poucavanju	Ucenje Bilo Gdje
+Primjena Icta U Ucenju I Poucavanju	Ucenje Bilo Kad
+Primjene i procesi	Ucenje temeljeno na Webu
+Primjene i procesi	Prividni razredi
+Primjene i procesi	Digitalno suracivanje
+Primjene i procesi	Ucenje temeljeno na racunalu
+Primjene i procesi	Digitalno ucenje
+Prividna Ucionica	Daljinsko Ucenje
+procjenjivanje	ucenik
+procjenjivanje	okruženje
+procjenjivanje	nastava
+Profesori	Osnovne vrste objekata
+Profil	Aktivnosti Ucenika
+Profil	Status O Ponucenom Sadržaju
+Profil ucenika	Osobni podaci
+Profil ucenika	Plan ucenja
+Profil ucenika	Status u participaciji aktivnog ucenja
+Profil ucenika	Povijest ucenja
+Profil ucenika	Procjene o postignutom znanju
+Programiranje	Ponavljanje
+Programiranje	Vježbanje
+Programiranje1	Resurse
+Programiranje2	Resurse
+Programska Aplikacija	Compact Disc
+Programska Aplikacija	WWW
+Programska Aplikacija	Multimedijalni Sadržaji
+Programska Aplikacija	Multimedijalni Sadržaji
+Programska podrška	Operativni sustav
+Programska podrška	Aplikacijski softver
+Promjena Osobnih Podataka	Profil Korisnika
+Racunalna Mreža	Internet
+Racunalna Mreža	Intranet
+Racunalo	Isporuka sadržaja
+Racunalo	Digitalno ucenje
+Racunalo	Pristup nastavnom sadržaju za e-ucenje
+Racunalo	Ostvarivanje obrazovanja
+Racunalo	Sklopovlje
+Racunalo	Programska podrška
+Racunalo	Obrada informacija
+Racunalo	Zaštita informacija
+Racunalo	Prijenos informacija
+Racunalo	Pohrana informacija
+Racunalo	Prikupljanje informacija
+Racunalo s multimedijom	Animacija
+Racunalo s multimedijom	Video prikaz
+Rad S Nastavnim Materijalima	Izrada Lekcija
+Rad S Nastavnim Materijalima	Dodavanje Resursa
+Radna memorija	Upravljanje podataka
+Rapid Intake	Litmos
+Raspoloživi mediji	Internet
+Raspoloživi mediji	Mreže
+Raspoloživi mediji	CD 
+Raspoloživi mediji	DVD
+Raspoloživi mediji	Racunala
+Raspoloživi mediji	Multimedija
+Razgovorne Sobe	Sudionike/Akteri
+Razliciti Nazivi	Vježbanje Utemeljeno Na Internetu
+Razliciti Nazivi	Web Utemeljena Nastava
+Razliciti Nazivi	Web Utemeljeno Ucenje
+Razliciti Nazivi	Web Utemeljeno Vježbanje
+Razliciti primjeri	Nastavni Sadržaj
+Razvoj E-Ucenja	Društvene Programske Podrške
+Razvoj E-Ucenja	E-Ucenje
+Razvoj E-Ucenja	Internet Obrazovanje
+Razvoj E-Ucenja	Obrazovanje Racunalima
+Razvoj E-Ucenja	Programiranje
+Repozitorij podataka	Careo
+Repozitorij podataka	Cloe
+Repozitorij podataka	Merlot
+Repozitorij podataka	Educanext
+Resurse	Obrazovni Sadržaj
+Resurse	Vremenske Resurse Ucenja
+Resurse	Jednostavni Oblici Nastavnog Sadržaja
+Resurse	Ostali Oblici Nastavnog Sadržaja
+RSS	Posebni Programi
+RSS	Sažete obavijesti
+RSS	Posebni programi
+Rukovoditelj	Profil ucenika
+Rukovoditelj	Plan tecaja
+Sadržaj	cvrsto Odrecen Sadržaj
+Sadržaj	Prakticni Sadržaj
+Sadržaj	Fleksibilni Sadržaj
+Sadržaj	Teorijski Sadržaj
+Sadržajno spremište	Objekt ucenja
+Sažete obavijesti	Web stranica
+Sinkroni Nacin Isporuke Isporuke	Whiteboard
+Sinkroni Nacin Isporuke Isporuke	Audio Ili Video Konferencija
+Sinkroni Nacin Isporuke Isporuke	Virtualna Ucionica Ucionica
+Sinkroni Nacin Isporuke Isporuke	Videokonferencija
+Sinkroni Nacin Isporuke Isporuke	Audio Konferencija S Prezentacijskim Materijalima
+Sinkroni Nacin Isporuke Isporuke	Prividna Ucionica
+Sinkroni Nacin Isporuke Isporuke	On-Line Tekstualna Komunikacija
+Sinkroni Nacin Isporuke Isporuke	Sudionika U Obrazovnom Sustavu
+Sinkroni Nacin Isporuke Isporuke	Aktivnost Korisnika U Isto Vrijeme
+Sinkroni Nacin Isporuke Isporuke	Nedostatak Sinkronog Nacina Isporuke E-Ucenja
+Sinkroni Nacin Isporuke Isporuke	Prednost Sinkronog Nacina Isporuke E-Ucenja
+Sinkroni Nacin Isporuke Isporuke	Na Unaprijed Dogovorenom Mjestu
+Sinkroni Nacin Isporuke Isporuke	Po Unaprijed Dogovorenom Scenariju
+Sinkroni Nacin Isporuke Isporuke	Interakciju
+Sinkroni Nacin Isporuke Isporuke	Kolaboracija & Zajednica
+Sinkroni Nacin Isporuke Isporuke	Ucionice Licem U Lice
+Sinkroni Nacin Isporuke Isporuke	Uživo Na Internetu
+Sinkroni Nacin Isporuke Isporuke	Poucavanje
+Sinkrono  E-Ucenje	Chat
+Sinkrono  E-Ucenje	Instant Messaging
+Sinkrono  E-Ucenje	Realno Vrijeme
+Sinkrono ucenje	Vrijeme
+Sinkrono ucenje	Mjesto
+Sistemska jedinica	Maticna ploca
+Sistemska jedinica	Graficka kartica
+Sistemska jedinica	Memorija
+Sistemska jedinica	Procesor
+Sistemska jedinica	Prikljucak
+Skala Ocjenjivanja	Opisne Ocjene
+Sklopovlje	Izlazna jedinica
+Sklopovlje	Sistemska jedinica
+Sklopovlje	Ulazna jedinica
+Skup informacija	Osnovni sadržaj lekcije
+Skup informacija	Razlicite nacine
+Skup informacija	Razliciti primjeri
+Slanje istovremenih poruka	Skype
+Slanje istovremenih poruka	Google Talk
+Spa	Resurse
+Spremanje	Datoteka
+Spremanje	Direktorij
+Spremanje	LMS paketi
+Spremanje	Web stranica
+Spremanje	Oznake
+Spremanje	Poveznica
+Spremanje	Baza podataka
+Spremišta Sadržaja I Katalozi Ponude	Alati Za Prikupljanje Sadržaja
+Spremišta Sadržaja I Katalozi Ponude	Rukovoditelj Kataloga
+Spremišta Sadržaja I Katalozi Ponude	Alati Za Oblikovanje Sadržaja
+Strucnjak Podrucnog Znanja	Objekti Nastavnog Sadržaja
+Strucnjak Podrucnog Znanja	Bazu Znanja
+Strucnjak Podrucnog Znanja	Objekti Nastavnog Sadržaja
+Sudionici U Obrazovnom Sustavu	Ucitelj
+Sudionici U Obrazovnom Sustavu	Korisnici Aktivni U Isto Vrijeme
+Sudionici U Obrazovnom Sustavu	Korisnici Aktivni U Razlicito Vrijeme
+Sudionici U Obrazovnom Sustavu	Ucenik
+Sudionike/Akteri	Goste
+Sudionike/Akteri	Ucenike
+Sudionike/Akteri	Administratore
+Sudionike/Akteri	Ucitelj
+Suradnja	Forum
+Suradnja	Radionica
+Suradnja	Blog
+Suradnja	Društvene mreže
+Suradnja	Wiki
+Sustav za isporuku sadržaja	Pristup komponentarnim okruženjima sustava za e-ucenje
+Sustav za isporuku sadržaja	Pristup nastavnom sadržaju
+Sustav Za Upravljanje E-Ucenjem	Asinkroni Sustav E-Ucenja
+Sustav Za Upravljanje E-Ucenjem	Sinkroni Sustav E-Ucenja
+Sustav Za Upravljanje E-Ucenjem	Aplikacija
+Sustav Za Upravljanje E-Ucenjem	Komponente
+Sustav za upravljanje sadržajem (CMS)	Ponovno upotrebljivi objekt ucenja (RLO)
+Sustav za upravljanje sadržajem ucenja ( LCMS )	Sustav za upravljanje sadržajem (CMS)
+Sustav za upravljanje sadržajem ucenja ( LCMS )	Sustav za upravljanje ucenjem (LMS)
+Sustav za upravljanje sadržajem ucenja ( LCMS )	Sadržajno spremište
+Sustav za upravljanje sadržajem ucenja ( LCMS )	Alat
+Sustav za upravljanje sadržajem ucenja ( LCMS )	Autorki alat
+Sustav za upravljanje sadržajem ucenja ( LCMS )	Sustav za isporuku sadržaja
+Sustav za upravljanje sadržajem ucenja ( LCMS )	Rukovoditelj
+Sustavi E-Ucenja	Resurse
+Sustavi Za Razmjenu Elektronske Pošte	Korištenje Kolaboracijskih Servisa
+Sustavi Za Razmjenu Elektronske Pošte	Sinkronizacija
+tehnologija	tehnološka infrastruktura
+Tehnologije Za Isporuku Nastavnih Sadržaja	Distance Learning Tehnologija
+Tehnologije Za Isporuku Nastavnih Sadržaja	E-Ucenje
+Tehnologije Za Isporuku Nastavnih Sadržaja	Mobile & Wireless Learning Tools
+Tehnologije Za Isporuku Nastavnih Sadržaja	Multimedijska Tehnologija
+Tehnologije Za Isporuku Nastavnih Sadržaja	Ucionica
+tehnološka infrastruktura	tehnicka podrška
+tehnološka infrastruktura	planiranje infrastrukture
+tehnološka infrastruktura	programska podrška
+Tekstualna Datoteka	Ime
+Tekstualna Datoteka	Tekst
+Tekstualna Datoteka	Sažetak
+Temeljna funkcija racunala	Obrada podataka
+Temeljna funkcija racunala	Prikaz podakata
+Temeljna funkcija racunala	Unos podataka
+Temeljna Funkcionalnost Sustava E-Ucenja	Administriranje Sudionika
+Temeljna Funkcionalnost Sustava E-Ucenja	Poucavanje
+Temeljna Funkcionalnost Sustava E-Ucenja	Testiranje
+Temeljna Funkcionalnost Sustava E-Ucenja	Ucenje
+Temeljna Funkcionalnost Sustava E-Ucenja	Vrednovanje Znanja
+Temeljni Sudionik Sustava E-Ucenja	Administrator Sustava
+Temeljni Sudionik Sustava E-Ucenja	Strucnjak Podrucnog Znanja
+Temeljni Sudionik Sustava E-Ucenja	Ucenik
+Temeljni Sudionik Sustava E-Ucenja	Ucitelj
+Teoreticar	Hu
+Teoreticar	Khan
+Teoreticar	Lancester
+Teoreticar	Tim Berners-Lee
+Teorijski Sadržaj	Opce Znanje
+Testiranje Znanja Ucenika	On-Line Kviz
+Testiranje Znanja Ucenika	Tradicionalno Nacelo Ucenja
+Tim Berners-Lee	Projekt WWW
+Tradicionalna Nastavna Paradigma	Nacionalno Priznata Diploma
+Tradicionalna Nastavna Paradigma	Ocjenjivanje
+Tradicionalna Nastavna Paradigma	cvrsto Odrecen Sadržaj
+Tradicionalna Nastavna Paradigma	Jednosmjerna Komunikacija
+Tradicionalna Nastavna Paradigma	Nastavnik U Glavnoj Ulozi
+Tradicionalna Nastavna Paradigma	Teorijski Sadržaj
+Tradicionalna Nastavna Paradigma	Nastava
+Tradicionalna Nastavna Paradigma	Pasivno Ucenje
+Tradicionalna Nastavna Paradigma	Opce Obrazovanje
+Tradicionalna Nastavna Paradigma	Zastarijelo Znanje
+Tradicionalna Nastavna Paradigma	Opce Znanje
+Tradicionalna Nastavna Paradigma	Pojedinacno Ucenje
+Tradicionalna Nastavna Paradigma	Nastava U Ucionici
+Tradicionalno Nacelo Ucenja	Administriranje Sudionika
+Tradicionalno Nacelo Ucenja	Oblikovanje Nastavnih Sadržaja
+Tradicionalno Nacelo Ucenja	Pospremanje Nastavnih Sadžaja
+Tradicionalno Nacelo Ucenja	Testiranje Znanja Ucenika
+Tradicionalno Nacelo Ucenja	Upravljanje
+Tradicionalno Nacelo Ucenja	Vocenje Procesa Ucenja I Poucavanja
+Tradicionalno Nacelo Ucenja	Vrednovanje Znanja Ucenika
+Trajna memorija	USB Stick
+Trajna memorija	DVD
+Trajna memorija	CD
+Trajna memorija	Pohrana podataka
+Trajna memorija	Pohrana informacija
+Ucenici	Osnovne vrste objekata
+Ucenik	Profil
+Ucenik	Nastavni Sadržaj
+Ucenik	Komponente Sustava E-Ucenja
+Ucenik	Resurse
+Ucenik	Nova Napredna Nastavna Paradigma
+Ucenik	Struktura I Pojedinosti Koje Je Ucitelj Oblikovao I Namijenio
+Ucenik	Interaktivnu Komunikaciju
+Ucenik	Pojedinacno Ucenje
+Ucenik	Grupno Ucenje
+Ucenik	Aktivno Ucenje
+Ucenik	Pasivno Ucenje
+Ucenje	Tekstualna Komunikacija
+Ucenje	Okruženje Za Suradni Rad
+Ucenje	Forum
+Ucenje	Sinkroni Dogacaj
+Ucenje	Interaktivno Ucenje
+Ucenje	On-Line Ucenje
+Ucenje	Aktivno Ucenje
+Ucenje	Pojedinacno Ucenje
+Ucenje	Grupno Ucenje
+Ucenje	Pasivno Ucenje
+Ucenje	Formalno Ucenje
+Ucenje	Neformalno Ucenje
+Ucenje	Tradicionalno Nacelo Ucenja
+Ucenje	Ucenje u svako vrijeme
+Ucenje	Ucenje na svakom mjestu
+Ucenje	Scenarij ucenja koji istice individualnost
+ucenje i poucavanje	analiza cilja
+ucenje i poucavanje	analiza sadržaja
+ucenje i poucavanje	analiza medija
+Ucenje na daljinu	Ucenje u svako vrijeme
+Ucenje na daljinu	Ucenje na svakom mjestu
+Ucionica	Klasicna Ucionica
+Ucionica	Virtualna Ucionica
+Ucitelj	Resurse
+Ucitelj	Komponente Sustava E-Ucenja
+Ucitelj	Nastavni Sadržaj
+Ucitelj	Nastavnik Kao Vodic
+Ucitelj	Nastavnik U Glavnoj Ulozi
+Ucitelj	Bazu Znanja
+Ucitelj	Objekti Nastavnog Sadržaja
+Ucitelj	Tradicionalna Nastavna Paradigma
+Ucitelj	Objekti Nastavnog Sadržaja
+Ucitelj	Strucnjak Za Razvoj Nastavnog Sadržaja
+Ucitelj	Interaktivnu Komunikaciju
+Ucitelj	Jednosmjerna Komunikacija
+Ulazna jedinica	Miš
+Ulazna jedinica	Tipkovnica
+Ulazna jedinica	Ekran osjetljiv na dodir
+Ulazna jedinica	Skener
+Ulazna jedinica	Unos podataka
+Upravljanje Blokovima	Blokovi
+Upravljanje Grupama	Dodavanje Grupe
+Upravljanje Kolegijem	Pregled Korisnika
+Upravljanje Kolegijem	Upravljanje Grupama
+Upravljanje Kolegijem	Pregled Izvješca O Kolegiju
+Upravljanje Kolegijem	Lista Nastavnika
+Upravljanje Kolegijem	Lista Polaznika
+Urecivanje Kolegija I Nastavnog Plana	Rad S Kalendarom
+Urecivanje Kolegija I Nastavnog Plana	Oblik Kolegija
+Urecivanje Kolegija I Nastavnog Plana	Postavke Kolegija
+USB Stick	Prijenos informacija
+Usmjereno Obrazovanje	Znanje Prema Potrebi
+Video Konferencija	Multimedijska Tehnologija
+Video Konferencija	Realno Vrijeme
+Video prikaz	Uspješnije obavljanje vježbi i postizanje boljih rezultata
+Video Streaming	Apple Quick Time
+Video Streaming	Microsoft Media Player
+Video Streaming	Real Media Player
+Video Streaming	"Streaming ""On Demand"""
+Virtualna zajednica	Društveno web mjesto
+Virtualna zajednica	Internet forum
+Virtualna Ucionica	Webinar
+Vježba na racunalu	Simulacije
+Vježba na racunalu	Vježba pomocu CD-ROM-a
+Vježba na racunalu	Vježba za domacu zadacu
+Vježba pomocu CD-ROM-a	CD-ove sa audio sadržajem
+Vježba pomocu CD-ROM-a	CD-ovi sa simulacijama aktivnosti
+Vježba pomocu CD-ROM-a	CD-ove sa video sadržajem
+Vježba pomocu CD-ROM-a	CD-ove sa tekstualnim sadržajem
+Vocenje Procesa Ucenja I Poucavanja	U Elektronickom Okruženju
+Vrednovanje Znanja	Tradicionalno Nacelo Ucenja
+Web	Infrastrukturu Ucenja
+Web aplikacije	Kompleksne aplikacije
+Web aplikacije	Jednostavne aplikacije
+Web Dokument	Html Editor
+Web stranica	Obrazovni sadržaj
+Webinar	Multimedijska Tehnologija
+Webinar	Realno Vrijeme
+What2Learn	Izradu Kvizova I Igara
+Wiki	Wikipedija
+Wiki	Modificiranje Sadržaja
+Wiki	Obrazovno okruženje
+Wiki	Jednostavna sintaksa
+WWW	Lekcija
+WWW	Sadržajnih Modula
+Zadace I Provjere Znanja	Dodjela Zadaca
+Zadace I Provjere Znanja	Testovi
+Zadace I Provjere Znanja	Prikupljanje Zadaca
+Znanje	Znanje Prema Potrebi
+Znanje	Opce Znanje
+Znanje	Znanje Prilagoceno Vremenu
+Znanje	Zastarijelo Znanje
