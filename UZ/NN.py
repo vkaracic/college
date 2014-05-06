@@ -154,45 +154,37 @@ def makeMatrix ( I, J, fill=0.0):
   return m
   
 def randomizeMatrix ( matrix, a, b):
-  for i in range ( len (matrix) ):
-    for j in range ( len (matrix[0]) ):
-      matrix[i][j] = random.uniform(a,b)
+    for i in range ( len (matrix) ):
+        for j in range ( len (matrix[0]) ):
+            matrix[i][j] = random.uniform(a,b)
 
 def neuro(argv):
-    #############       ZID         ######################
-    ######################################################
-    if argv[0] == 'treniraj_zid':
-      # broj elemenata NN je fiksiran na 2 2 1
-        br_input = 2
-        br_hidden = 2
-        br_output = 1
+    if argv[0] == '-train':
+      # automatski izracun hidden layera (srednja vrijednost input i output cvorova)
+        br_input = int(argv[1])
+        br_output = int(argv[2])
+
+        # zbroj NI i NO; podjela s 2.0 da se stvori float broj jer je (2+1)/2 = 1 i zaokruzivanje na vecu vrijednost
+        br_hidden = int(math.ceil((br_input + br_output)/2.0))        
+
         # inicijalizira se NN
         n = NN(br_input, br_hidden, br_output)
 
-        # generiranje data seta za treniranje
+        # ucitavanje training seta gdje su vrijednosti odvojene tabovima
         data_set = []
-        broj = 40 # mijenjati po potrebi
-        # broj elemenata kada je zid
-        for i in range(broj):
-            SB = random.randrange(0, 6)
-            UZ = random.randrange(1, 31) # UZ kod zida je [1-30]
-            TAR = 1 # target 1 > zid
-            data_set.append([normaliziraj(SB, UZ), [TAR]])
-        # broj elemenata kada nije zid
-        for j in range(broj):
-            SB = random.randrange(1, 6)
-            UZ = random.randrange(31, 100) # UZ kod praznog prostora [31 - 100] // UZ ogranicen na max 100
-            TAR = 0 # target 0 > prazan prostor
-            data_set.append([normaliziraj(SB, UZ), [TAR]])       
+        f = open(argv[3], 'r')
+        for line in f:
+            SB , UZ, TAR = line.split('\t')
+            data_set.append([normaliziraj(int(SB), int(UZ)), [int(TAR)]])     
 
         # treniranje NN
         n.train(data_set)
-
+        #print n.wi
         # spremanje NN u 'NNZid' datoteku
         n.save_nn('zid', [br_input, br_hidden, br_output])
 
 
-    if argv[0] == 'test_zid':
+    if argv[0] == '-test':
 
         # loadiranje istrenirane NN gdje je argv[1] ime datoteke gdje je spremljena NN
         f = open(argv[1], 'r')
@@ -217,85 +209,19 @@ def neuro(argv):
         net.set_weights(inputWeights, outputWeights)
 
 
-        # ako je vise od dva argumenta (ime datoteke gdje je spremljena NN) onda se pretpostavlja da se testira samo jedan unos gdje je argv[2] = SB vrijednost, argv[3] = UZ vrijednost
-        if len(argv) > 2:
-          print net.runNN(normaliziraj(argv[2], argv[3]))
+        # ako je unos: -ime_funkcije NN_datoteka SB UZ
+        if len(argv) > 3:
+            print net.runNN(normaliziraj(argv[2], argv[3]))
         else: 
-        # ako nema vise od dva vrsi se testiranje na nasumicno generiranom data setu
-          test_set = []
-          for x in range(30):
-              SB = random.randint(1, 6)
-              UZ = random.randint(1, 100)
-              if UZ < 30:
-                  TAR = 1
-              else:
-                  TAR = 0
-              test_set.append([normaliziraj(SB, UZ), [TAR]]) 
+        # ako je unos: -ime_funkcije NN_datoteka test_data_datoteka
+            test_set = []
 
-          net.test(test_set)
+            f = open(argv[2], 'r')
+            for line in f:
+                SB , UZ, TAR = line.split('\t')
+                test_set.append([normaliziraj(int(SB), int(UZ)), [int(TAR)]]) 
 
-    #############       RUPA   (ne radi)##################
-    ######################################################
-    if argv[0] == 'treniraj_rupa':
-        br_input = 2
-        br_hidden = 2
-        br_output = 1
-        n = NN(br_input, br_hidden, br_output)
-
-        data_set = []
-        broj = 100
-        for i in range(broj):
-            SB = 3
-            UZ = random.randrange(1, 100)
-            TAR = 1
-            data_set.append([normaliziraj(SB, UZ), [TAR]])
-
-        temp = range(1, 3) + range(4, 6)
-        for j in range(broj):
-            SB = random.choice(temp)
-            UZ = random.randrange(1, 100)
-            TAR = 0
-            data_set.append([normaliziraj(SB, UZ), [TAR]])       
-
-        n.train(data_set, max_iterations=10000)
-
-        n.save_nn('rupa', [br_input, br_hidden, br_output])
-
-    if argv[0] == 'test_rupa':
-
-        f = open('NNZid', 'r')
-        br_input = int(f.readline().strip('\n'))
-        br_hidden = int(f.readline().strip('\n'))
-        br_output = int(f.readline().strip('\n'))
-
-        inputWeights = []
-        for i in range(br_input + 1):
-            temp = f.readline().strip('\n')
-            temp = temp.split(',')
-            temp = [float(i) for i in temp]
-            inputWeights.append(temp)
-
-        outputWeights = []
-        for i in range(br_hidden):
-            temp = f.readline().strip('\n')
-            outputWeights.append(float(temp))
-        f.close()
-
-        net = NN(br_input, br_hidden, br_output)
-        net.set_weights(inputWeights, outputWeights)
-
-
-        test_set = []
-        for x in range(30):
-            SB = random.randint(1, 6)
-            UZ = random.randint(1, 100)
-            if SB == 3:
-                TAR = 1
-            else:
-                TAR = 0
-            test_set.append([normaliziraj(SB, UZ), [TAR]]) 
-
-        net.test(test_set)
+            net.test(test_set)
 
 
 if __name__ == '__main__':
