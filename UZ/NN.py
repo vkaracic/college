@@ -131,7 +131,7 @@ class NN:
       inputs = p[0]
       print 'Inputs:', p[0], '-->', self.runNN(inputs), '\tTarget', p[1]
   
-  def train (self, patterns, max_iterations = 1000, N=0.5, M=0.1):
+  def train (self, patterns, max_iterations = 10000, N=0.5, M=0.1):
     for i in range(max_iterations):
       for p in patterns:
         inputs = p[0]
